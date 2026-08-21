@@ -1,0 +1,11 @@
+{
+  "versionCode": 2,
+  "versionName": "1.0.1",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.0.1/Panalink-v1.0.1.apk",
+  "sha256": "e1ffd83c8cab3fdf4945d5e4090d343ec84d5f18df1eaaa96ea4cf137b6465f0",
+  "mandatory": false,
+  "minimumSupportedVersionCode": 1,
+  "changelog": [
+    "Primera versión oficial distribuida mediante el sistema OTA de Panalink."
+  ]
+}
