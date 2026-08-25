@@ -4,7 +4,7 @@ Repositorio exclusivo para distribuir actualizaciones oficiales de Panalink.
 
 ## Publicación manual
 
-Los APK se generan y firman fuera de GitHub (por ejemplo, desde Termux). GitHub no compila la aplicación.
+Los APK se generan y firman fuera de GitHub, GitHub no compila la aplicación.
 
 Para cada versión:
 
