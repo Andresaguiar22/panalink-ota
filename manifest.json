@@ -1,16 +1,15 @@
 {
-  "versionCode": 4,
-  "versionName": "1.0.3",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.0.3/Panalink-v1.0.3.apk",
-  "sha256": "aec31b53b0501efbbb3b3a6ba6236f399af5f4942d8a088ac3a7404637db5d83",
+  "versionCode": 5,
+  "versionName": "1.0.4",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.0.4/Panalink-v1.0.4.apk",
+  "sha256": "2614367327fbd8673f414e531423fbce2271b029bb8a657dc77e4dc40b30cc5a",
   "mandatory": false,
   "minimumSupportedVersionCode": 1,
   "changelog": [
-    "Sticker Studio propio de Panalink: crea stickers desde imagenes (con borde estilo WhatsApp), texto y video (GIF animado).",
-    "Pack oficial PanaLink incluido por defecto (funciona sin conexion).",
-    "Candado de nota de voz estilo WhatsApp: ya no se atraviesa sobre los mensajes.",
-    "Editor de historias a pantalla completa con publicacion en segundo plano.",
-    "Preview de chats legible para todos los tipos de mensaje.",
-    "Feed de Reels con barra de acciones compacta y sin textos tecnicos."
+    "Stickers: ya se ven en el chat (soporte WebP animado corregido).",
+    "Notas de voz: waveform premium mas grueso, con picos y valles reales, burbuja mas larga y delgada.",
+    "Color distintivo: nota de voz = verde/azul, audio de galeria = purpura.",
+    "Version real en toda la app (ya no muestra 2.0).",
+    "Actualizaciones automaticas: la app chequea nuevas versiones al abrir y cada 10 minutos, y te avisa con un dialogo a pantalla completa."
   ]
 }
