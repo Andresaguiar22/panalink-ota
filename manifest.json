@@ -1,7 +1,7 @@
 {
-  "versionCode": 7,
-  "versionName": "1.0.6",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.0.6/Panalink-v1.0.6.apk",
-  "sha256": "db34b591680764386f38340cf07ab36a470efcd5972289ce5a29dfc584f9eede",
-  "changelog": "🔔 Fix crítico: notificaciones push FCM ahora funcionan con la app cerrada. Esta build incluye la configuración real de Firebase."
+  "versionCode": 8,
+  "versionName": "1.0.7",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.0.7/Panalink-v1.0.7.apk",
+  "sha256": "7013e42835a7cacfc9d5eeac457cf91a67ed2a9189c979e70799fc876b2cdeaf",
+  "changelog": "🔔 Fix definitivo: notificaciones push con app cerrada. Se activo el auto-init de Firebase Messaging que estaba desactivado."
 }
