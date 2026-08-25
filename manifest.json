@@ -1,7 +1,7 @@
 {
-  "versionCode": 8,
-  "versionName": "1.0.7",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.0.7/Panalink-v1.0.7.apk",
-  "sha256": "7013e42835a7cacfc9d5eeac457cf91a67ed2a9189c979e70799fc876b2cdeaf",
-  "changelog": "🔔 Fix definitivo: notificaciones push con app cerrada. Se activo el auto-init de Firebase Messaging que estaba desactivado."
+  "versionCode": 9,
+  "versionName": "1.0.8",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.0.8/Panalink-v1.0.8.apk",
+  "sha256": "b3cc32ba532a86caafd3cc349ad85237bb7978ad50fc8be755f45415985b3220",
+  "changelog": "🤝 Sección de contactos renovada: tu PIN y QR real para compartir, agregar por escáner o PIN directo, y solicitudes con nombre y foto reales."
 }
