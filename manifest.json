@@ -1,16 +1,7 @@
 {
-  "versionCode": 6,
-  "versionName": "1.0.5",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.0.5/Panalink-v1.0.5.apk",
-  "sha256": "b2802fa866c8fdd7144493bd248d2bb8cbd44341b09513bbcfa1011b4c3a9268",
-  "mandatory": false,
-  "minimumSupportedVersionCode": 1,
-  "changelog": [
-    "Fix OTA: ya no dice 'actualizado' por cache de GitHub (cache-buster).",
-    "El chequeo de version ahora muestra la version remota y la instalada.",
-    "Stickers: ya se ven en el chat (soporte WebP animado corregido).",
-    "Notas de voz: waveform premium mas grueso, con picos y valles reales.",
-    "Color distintivo: nota de voz = verde/azul, audio de galeria = purpura.",
-    "Version real en toda la app (ya no muestra 2.0)."
-  ]
+  "versionCode": 7,
+  "versionName": "1.0.6",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.0.6/Panalink-v1.0.6.apk",
+  "sha256": "db34b591680764386f38340cf07ab36a470efcd5972289ce5a29dfc584f9eede",
+  "changelog": "🔔 Fix crítico: notificaciones push FCM ahora funcionan con la app cerrada. Esta build incluye la configuración real de Firebase."
 }
