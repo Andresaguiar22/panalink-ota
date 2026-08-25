@@ -1,11 +1,16 @@
 {
-  "versionCode": 3,
-  "versionName": "1.0.2",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.0.2/Panalink-v1.0.2.apk",
-  "sha256": "dad791c6d65d41afc6a2d70f4dbd98480b0cc8d69e73b3ccd38424a30ecae285",
+  "versionCode": 4,
+  "versionName": "1.0.3",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.0.3/Panalink-v1.0.3.apk",
+  "sha256": "aec31b53b0501efbbb3b3a6ba6236f399af5f4942d8a088ac3a7404637db5d83",
   "mandatory": false,
   "minimumSupportedVersionCode": 1,
   "changelog": [
-    "Actualización OTA de Panalink."
+    "Sticker Studio propio de Panalink: crea stickers desde imagenes (con borde estilo WhatsApp), texto y video (GIF animado).",
+    "Pack oficial PanaLink incluido por defecto (funciona sin conexion).",
+    "Candado de nota de voz estilo WhatsApp: ya no se atraviesa sobre los mensajes.",
+    "Editor de historias a pantalla completa con publicacion en segundo plano.",
+    "Preview de chats legible para todos los tipos de mensaje.",
+    "Feed de Reels con barra de acciones compacta y sin textos tecnicos."
   ]
 }
