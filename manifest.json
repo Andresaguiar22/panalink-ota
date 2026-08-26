@@ -1,7 +1,1 @@
-{
-  "versionCode": 14,
-  "versionName": "1.1.3",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.1.3/Panalink-v1.1.3.apk",
-  "sha256": "f10f15662cac575f7f89d277c8f342aa2db5e23949bbcc8b265fe10228d6e6b5",
-  "changelog": "Fixes: el muro ya distingue foto/video/audio (deteccion por MIME), mini-barras de subida por seccion, y ahora puedes cancelar cualquier subida en cola con la X."
-}
+{"versionCode": 15, "versionName": "1.1.4", "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.1.4/Panalink-v1.1.4.apk", "sha256": "875682102ff32f30c97052af821b9495645ce341a558782072500dfa1d3274f4", "changelog": "Player de Reels estilo TikTok (swipe sin lag, videos cargan al toque). Fotos multiples se envian como album grid. Punto verde ya no es falso en contactos/llamadas. Candado de nota de voz con rebote y animacion de bote de basura al borrar. PIN/QR colapsable en Contactos. App mas estable sin senal (ya no se cierra)."}
