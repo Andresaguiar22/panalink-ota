@@ -1,7 +1,7 @@
 {
-    "versionCode": 11,
-    "versionName": "1.1.0",
-    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.1.0/Panalink-v1.1.0.apk",
-    "sha256": "07918b1a3d3a3575d9f308bd4e64e34e43b479f7116ab4254432cadf567e93d6",
-    "changelog": "🖼️ Tu foto de perfil y portada ahora se guardan en Supabase: cargan al instante y ya no dependen del CDN (con respaldo automático). 🔔 Notificaciones más confiables: la clave de cifrado y el token de mensajería dejaban de pisarse. ✅ Interno: 186 pruebas automatizadas en verde."
+    "versionCode": 12,
+    "versionName": "1.1.1",
+    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.1.1/Panalink-v1.1.1.apk",
+    "sha256": "ccebbc514f22ee75ea1b8327813a3504ab51342495f6c7cdae13dde5d7aa2c37",
+    "changelog": "🖼️ Tu foto de perfil y portada ahora se guardan en Supabase Storage: cargan al instante y ya no dependen del CDN. 🗄️ Videos, reels, audios y documentos siguen en el CDN Panalink con respaldo automático a Sufy si el CDN falla (credenciales Sufy nunca en tu teléfono). ✅ Interno: correcciones del flujo de almacenamiento, migración profile-covers versionada, 186 pruebas automatizadas en verde."
 }
