@@ -1,7 +1,7 @@
 {
-  "versionCode": 13,
-  "versionName": "1.1.2",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.1.2/Panalink-v1.1.2.apk",
-  "sha256": "a8228e775aa8d8ba5ddcbe2205c6ccbc16fca10b76673d7674b11e9452a427fb",
-  "changelog": "Failover total CDN<->Sufy: fotos de chat, historias con imagen y posts del muro ya no se quedan en cola cuando el CDN esta caido; todo cae a Sufy automaticamente. Circuit breaker con recuperacion automatica al CDN."
+  "versionCode": 14,
+  "versionName": "1.1.3",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.1.3/Panalink-v1.1.3.apk",
+  "sha256": "f10f15662cac575f7f89d277c8f342aa2db5e23949bbcc8b265fe10228d6e6b5",
+  "changelog": "Fixes: el muro ya distingue foto/video/audio (deteccion por MIME), mini-barras de subida por seccion, y ahora puedes cancelar cualquier subida en cola con la X."
 }
