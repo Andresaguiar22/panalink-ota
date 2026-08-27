@@ -1,7 +1,7 @@
 {
-  "versionCode": 21,
-  "versionName": "1.2.4",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.4/Panalink-v1.2.4.apk",
-  "sha256": "2cf5728fba4fa8b488e4a66690b13eedc7a9c5abb90427b2cafaf8a032d3bbed",
-  "changelog": "Sistema de llamadas completo: suena aunque el receptor este offline, botones responden, videollamada con camara, tono de repique, timeout de no-responde, asientos de salas corregidos."
+  "versionCode": 22,
+  "versionName": "1.2.5",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.5/Panalink-v1.2.5.apk",
+  "sha256": "ab9e77b184043b29a94b401937975ec79e93707ba5967eb3be817c25e4e31d5d",
+  "changelog": "E2EE desactivado para desarrollo, fix salas de voz (columnas ambiguas moveSeat/requestSeat/leaveSeat), DB limpiada (historial de mensajes y tokens viejos eliminados), asientos 1-8 para invitados."
 }
