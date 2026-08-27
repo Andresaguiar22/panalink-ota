@@ -1,7 +1,7 @@
 {
-    "versionCode": 16,
-    "versionName": "1.1.5",
-    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.1.5/Panalink-v1.1.5.apk",
-    "sha256": "ff657460b306e67797983b3c54a8087a2c9ea68dfad52150ad8091e88fbd70c4",
-    "changelog": "Integración Sia Storage lista para probar (gate OFF; fallback CDN->Sufy intacto). Normalización de credenciales Sia (prefijo ed25519:). MediaStorageRouter en workers. gcm_defaultSenderId real y FCM auto_init=true para push funcional."
+    "versionCode": 17,
+    "versionName": "1.2.0",
+    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.0/Panalink-v1.2.0.apk",
+    "sha256": "38bc8942fe35ce9f6de7cd724195d314b0b91b1ed07af083032ca4a21d69decc",
+    "changelog": "Credenciales Sia incorporadas al APK: todos los usuarios usan el almacenamiento Sia de Panalink automaticamente. Router de almacenamiento ACTIVADO (VIDEO->Sia->CDN->Sufy; imagen/audio/doc->Sufy->CDN). Credenciales Sia normalizadas y mapeadas en build time. Push FCM real."
 }
