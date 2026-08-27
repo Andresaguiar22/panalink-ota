@@ -1,1 +1,7 @@
-{"versionCode": 15, "versionName": "1.1.4", "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.1.4/Panalink-v1.1.4.apk", "sha256": "875682102ff32f30c97052af821b9495645ce341a558782072500dfa1d3274f4", "changelog": "Player de Reels estilo TikTok (swipe sin lag, videos cargan al toque). Fotos multiples se envian como album grid. Punto verde ya no es falso en contactos/llamadas. Candado de nota de voz con rebote y animacion de bote de basura al borrar. PIN/QR colapsable en Contactos. App mas estable sin senal (ya no se cierra)."}
+{
+    "versionCode": 16,
+    "versionName": "1.1.5",
+    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.1.5/Panalink-v1.1.5.apk",
+    "sha256": "ff657460b306e67797983b3c54a8087a2c9ea68dfad52150ad8091e88fbd70c4",
+    "changelog": "Integración Sia Storage lista para probar (gate OFF; fallback CDN->Sufy intacto). Normalización de credenciales Sia (prefijo ed25519:). MediaStorageRouter en workers. gcm_defaultSenderId real y FCM auto_init=true para push funcional."
+}
