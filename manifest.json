@@ -1,7 +1,7 @@
 {
-  "versionCode": 18,
-  "versionName": "1.2.1",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.1/Panalink-v1.2.1.apk",
-  "sha256": "22f9d37f3f1cff5d09f4279bc5088525f4a7b7ac5fde074f74f38b2e921405cb",
-  "changelog": "Voice rooms 9 asientos + aura animada + chat clear al cerrar/vaciar + timbre y vibracion en llamadas entrantes (app cerrada) + FCM push offline + LiveKit video calls (gate off) + Backblaze B2 CDN"
+  "versionCode": 19,
+  "versionName": "1.2.2",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.2/Panalink-v1.2.2.apk",
+  "sha256": "16307b969934a7f69e9c9eca2c3097779a5632b73f7dd32e4d05623a624e4019",
+  "changelog": "Fix llamadas LiveKit: reintento automatico de conexion inicial con backoff (3 intentos) elimina el Error de Conexion; la tarjeta de estado de llamadas ahora refleja LiveKit en vez del señalizador WebRTC enganoso; manejo correcto de caida de llamada activa vs fallo de conexion inicial."
 }
