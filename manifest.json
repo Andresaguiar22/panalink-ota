@@ -1,7 +1,0 @@
-{
-    "versionCode": 17,
-    "versionName": "1.2.0",
-    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.0/Panalink-v1.2.0.apk",
-    "sha256": "38bc8942fe35ce9f6de7cd724195d314b0b91b1ed07af083032ca4a21d69decc",
-    "changelog": "Credenciales Sia incorporadas al APK: todos los usuarios usan el almacenamiento Sia de Panalink automaticamente. Router de almacenamiento ACTIVADO (VIDEO->Sia->CDN->Sufy; imagen/audio/doc->Sufy->CDN). Credenciales Sia normalizadas y mapeadas en build time. Push FCM real."
-}
