@@ -1,7 +1,7 @@
 {
-  "versionCode": 22,
-  "versionName": "1.2.5",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.5/Panalink-v1.2.5.apk",
-  "sha256": "ab9e77b184043b29a94b401937975ec79e93707ba5967eb3be817c25e4e31d5d",
-  "changelog": "E2EE desactivado para desarrollo, fix salas de voz (columnas ambiguas moveSeat/requestSeat/leaveSeat), DB limpiada (historial de mensajes y tokens viejos eliminados), asientos 1-8 para invitados."
+    "versionCode": 23,
+    "versionName": "1.2.6",
+    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.6/Panalink-v1.2.6.apk",
+    "sha256": "aec43e07e54bce949309781309c6e42a6442bcd68de70d7b36d89fb954797212",
+    "changelog": "Fix critico: mensajes que desaparecian del chat y rebotaban desde un perfil desconocido. El handler realtime ahora extrae receiver_id, el mensaje optimista incluye receiverId, y normalizeChatIdentity busca por otherUserId cuando el threadId no esta cacheado en Room."
 }
