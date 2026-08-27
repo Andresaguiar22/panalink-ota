@@ -1,7 +1,7 @@
 {
-  "versionCode": 20,
-  "versionName": "1.2.3",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.3/Panalink-v1.2.3.apk",
-  "sha256": "4c69185a145fdd3d7ac9ceb17ea5c8aa00d9b9da24c2cbde8d443ec019923e05",
-  "changelog": "Llamadas con LiveKit reparadas: la pantalla de llamada en curso (con boton colgar) ahora aparece al llamar (startCall setea CallState.OUTGOING). Signalizacion migrada de Socket.IO/CDN caido a Supabase Realtime (CallSignaling): ya no se queda en reconectando. Salas de voz: las salas ya no se cierran solas al vaciarse (regresion arreglada) y las 3 existentes reabiertas. Animacion de ondas al hablar ahora incluye el avatar local. Engine de salas LiveKit con reintento de conexion y cleanup robusto."
+  "versionCode": 21,
+  "versionName": "1.2.4",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.4/Panalink-v1.2.4.apk",
+  "sha256": "2cf5728fba4fa8b488e4a66690b13eedc7a9c5abb90427b2cafaf8a032d3bbed",
+  "changelog": "Sistema de llamadas completo: suena aunque el receptor este offline, botones responden, videollamada con camara, tono de repique, timeout de no-responde, asientos de salas corregidos."
 }
