@@ -1,15 +1,7 @@
 {
-    "versionCode": 24,
-    "versionName": "1.2.7",
-    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.7/Panalink-v1.2.7.apk",
-    "sha256": "7bd2bb70abc7f5e15ca2814adb5e2af211ca9621bac0aa4fc01a98b335ab1e00",
-    "changelog": [
-        "Dialog de actualizacion mas grande y legible: se ven todas las mejoras de la nueva version",
-        "Tema oscuro por defecto en los chats (fondo, top bar, barras y menu)",
-        "Nombre del chat completo con animacion marquee (se desplaza si no cabe)",
-        "Ojo de mensaje de una vista movido al panel de emojis para despejar el campo de escritura",
-        "Fix: preview negra en el editor de reels al seleccionar video de la galeria",
-        "Carrusel de historias cache-first: se ven al instante al volver a entrar a la app",
-        "Visor de historias: la barra de progreso espera a que el contenido cargue antes de avanzar"
-    ]
+  "versionName": "1.2.8",
+  "versionCode": 25,
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.8/Panalink-v1.2.8.apk",
+  "sha256": "d0f4d275810be1ec4d14f4a4753d387776c67a31e8c0e6896e752431c4d53533",
+  "changelog": "VCDN CDN de video p\u00fablico con fallback autom\u00e1tico a B2. API key server-side (Edge Function proxy). Puntero estable vcdn://{videoId}. Kill switch incluido. E2E verificado: upload por chunks, HLS reproduce, reel le\u00eddo de DB."
 }
