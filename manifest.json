@@ -1,7 +1,7 @@
 {
-  "versionName": "1.2.8",
-  "versionCode": 25,
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.8/Panalink-v1.2.8.apk",
-  "sha256": "d0f4d275810be1ec4d14f4a4753d387776c67a31e8c0e6896e752431c4d53533",
-  "changelog": "VCDN CDN de video p\u00fablico con fallback autom\u00e1tico a B2. API key server-side (Edge Function proxy). Puntero estable vcdn://{videoId}. Kill switch incluido. E2E verificado: upload por chunks, HLS reproduce, reel le\u00eddo de DB."
+  "versionName": "1.2.9",
+  "versionCode": 26,
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.9/Panalink-v1.2.9.apk",
+  "sha256": "4ca248382f62135f95805aecaf84d38b6cb710135e3bcfbeca831aedab323b54",
+  "changelog": "Reproductor de video del muro arreglado (videos VCDN/HLS ya no se ven en negro). Miniaturas de historias de video VCDN muestran el poster. Circulo de carga pegado en visor de imagenes corregido. Deteccion de actualizaciones OTA mas robusta (fallback jsDelivr). Bucle de descarga de actualizacion corregido."
 }
