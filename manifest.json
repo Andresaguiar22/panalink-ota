@@ -1,7 +1,7 @@
 {
-  "versionName": "1.2.9",
-  "versionCode": 26,
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.9/Panalink-v1.2.9.apk",
-  "sha256": "4ca248382f62135f95805aecaf84d38b6cb710135e3bcfbeca831aedab323b54",
-  "changelog": "Reproductor de video del muro arreglado (videos VCDN/HLS ya no se ven en negro). Miniaturas de historias de video VCDN muestran el poster. Circulo de carga pegado en visor de imagenes corregido. Deteccion de actualizaciones OTA mas robusta (fallback jsDelivr). Bucle de descarga de actualizacion corregido."
+  "versionName": "1.3.0",
+  "versionCode": 27,
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.0/Panalink-v1.3.0.apk",
+  "sha256": "ca6dd1c41cc85e48262658574335ec464dce9c3bfdfe1910d5af5d418142c78b",
+  "changelog": "Compilaci\u00f3n release v1.3.0 con rama refactor/full-app-turbo, soporte VCDN, mejoras en reproductor de video y estabilidad general."
 }
