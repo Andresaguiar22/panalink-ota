@@ -1,7 +1,15 @@
 {
-    "versionCode": 23,
-    "versionName": "1.2.6",
-    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.6/Panalink-v1.2.6.apk",
-    "sha256": "aec43e07e54bce949309781309c6e42a6442bcd68de70d7b36d89fb954797212",
-    "changelog": "Fix critico: mensajes que desaparecian del chat y rebotaban desde un perfil desconocido. El handler realtime ahora extrae receiver_id, el mensaje optimista incluye receiverId, y normalizeChatIdentity busca por otherUserId cuando el threadId no esta cacheado en Room."
+    "versionCode": 24,
+    "versionName": "1.2.7",
+    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.2.7/Panalink-v1.2.7.apk",
+    "sha256": "7bd2bb70abc7f5e15ca2814adb5e2af211ca9621bac0aa4fc01a98b335ab1e00",
+    "changelog": [
+        "Dialog de actualizacion mas grande y legible: se ven todas las mejoras de la nueva version",
+        "Tema oscuro por defecto en los chats (fondo, top bar, barras y menu)",
+        "Nombre del chat completo con animacion marquee (se desplaza si no cabe)",
+        "Ojo de mensaje de una vista movido al panel de emojis para despejar el campo de escritura",
+        "Fix: preview negra en el editor de reels al seleccionar video de la galeria",
+        "Carrusel de historias cache-first: se ven al instante al volver a entrar a la app",
+        "Visor de historias: la barra de progreso espera a que el contenido cargue antes de avanzar"
+    ]
 }
