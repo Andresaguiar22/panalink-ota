@@ -1,7 +1,7 @@
 {
-  "versionName": "v1.3.4",
-  "versionCode": 31,
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.4/app-release.apk",
-  "sha256": "0d92556ebe6929304d64b34564aa9a1ea1fbcf355ff2a733cafc1b659c2e7c9f",
-  "changelog": "Fix reproductor Reels: validación de URL vcdn, retry con re-resolución, UI de error moderna, sin loops infinitos, release en dispose."
+  "versionName": "v1.3.5",
+  "versionCode": 32,
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.5/app-release.apk",
+  "sha256": "b71483eac4208754c060bfe9d81c5c273725c59b791bde42d65e8bf93be93d1d",
+  "changelog": "Fix JWT bearer interpolation (PGRST301): videos y reels cargan sin error rojo. Corrige 'Expected 3 parts in JWT; got 1'."
 }
