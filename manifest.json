@@ -1,7 +1,7 @@
 {
-  "versionName": "v1.3.9",
-  "versionCode": 36,
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.9/Panalink-v1.3.9.apk",
-  "sha256": "fca193d2629d7f3e38dd5efc83d5ab6b897d6ed0addcdcf6204a4ab83757af2f",
-  "changelog": "v1.3.9: Fix story videos black after 2-3s - single ExoPlayer session + LoadControl(minBufferMs=3000) + skip vcdn stories unavailable."
+  "versionName": "v1.3.10",
+  "versionCode": 37,
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.10/Panalink-v1.3.10.apk",
+  "sha256": "42a3d1ee298ae784f277f541861ee0b3b4e21dfad36a50a5a84f69e02e69403f",
+  "changelog": "v1.3.10: Optimizacion navegacion - Reels prefetch solo settle-page + IO guard, collectors lifecycle-aware, stable LazyColumn keys, cleaner 400ms IO."
 }
