@@ -1,7 +1,7 @@
 {
-  "versionName": "1.3.1",
-  "versionCode": 28,
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.1/app-release.apk",
-  "sha256": "9c3984debb3e1d1402dd331f44d4873cc59595119bdd60ba59c5d696799994ac",
+  "versionName": "v1.3.2",
+  "versionCode": 29,
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.2/app-release.apk",
+  "sha256": "bf4bdbb280b7e26a3af1a90acc1bdf9f9e9f9a8e6b07201a1c5890e0e27ab070",
   "changelog": "Mejoras de estabilidad y rendimiento general."
 }
