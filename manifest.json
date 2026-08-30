@@ -1,7 +1,7 @@
 {
-  "versionName": "v1.3.8",
-  "versionCode": 35,
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.8/Panalink-v1.3.8.apk",
-  "sha256": "690be31e81485623054c510c25cfcf1f3159eef57f853dc5de520ecd956a1a5e",
-  "changelog": "v1.3.8: Story player fix - advance only on real STATE_ENDED (no mas cortes prematuros con black screen(; FFmpeg PREFER para hi-res/stories/reels/feed (fix tinte verde(; reels preload nunca cae en el slot activo."
+  "versionName": "v1.3.9",
+  "versionCode": 36,
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.9/Panalink-v1.3.9.apk",
+  "sha256": "fca193d2629d7f3e38dd5efc83d5ab6b897d6ed0addcdcf6204a4ab83757af2f",
+  "changelog": "v1.3.9: Fix story videos black after 2-3s - single ExoPlayer session + LoadControl(minBufferMs=3000) + skip vcdn stories unavailable."
 }
