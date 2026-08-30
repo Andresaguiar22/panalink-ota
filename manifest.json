@@ -1,7 +1,7 @@
 {
-  "versionName": "v1.3.2",
-  "versionCode": 29,
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.2/app-release.apk",
-  "sha256": "bf4bdbb280b7e26a3af1a90acc1bdf9f9e9f9a8e6b07201a1c5890e0e27ab070",
-  "changelog": "Mejoras de estabilidad y rendimiento general."
+  "versionName": "v1.3.3",
+  "versionCode": 30,
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.3/app-release.apk",
+  "sha256": "1a878a5f05f761a8dcf3343c6790c7bf9668a86799c3a5dd653024e8677bfae1",
+  "changelog": "Corrección reproductor Reels: listener de errores activo, reset de decoder, preload con match flexible, pantalla negra eliminada."
 }
