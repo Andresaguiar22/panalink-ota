@@ -1,7 +1,7 @@
 {
-  "versionName": "v1.3.6",
-  "versionCode": 33,
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.6/app-release.apk",
-  "sha256": "a705e1d7bde61bcdf63c7e5997b68a55a773f094778015f24efb591f6d209027",
-  "changelog": "Fix reproductor video: clearVideoSurface al cambiar media, release limpia surface, isInNativePip reset. Corrige pantalla negra y capa UI detrás."
+  "versionName": "v1.3.7",
+  "versionCode": 34,
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.7/app-release.apk",
+  "sha256": "88b189c2c56ec9e63e088a96ccba64fe0fe6c2469225c324fe110370bbbe43ef",
+  "changelog": "v1.3.7: Reel player fix — first-video load, error UI modern, preload window, auto-retry. No chat/auth changes."
 }
