@@ -1,7 +1,7 @@
 {
-  "changelog": "v1.3.11: Fix propagacion de avatares - los usuarios ven las fotos de perfil de otros (Gente, Llamadas, Reels, Stories) sin reiniciar la app; cache-first con TTL de 3min + cache JSON de contactos con avatar null fuerza red.",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.11/Panalink-v1.3.11.apk",
-  "sha256": "ac1c72ac6995414450ca43a4e37a7fc046796a6b32a2c95218f692d0b6e0fd54",
-  "versionCode": 38,
-  "versionName": "v1.3.11"
+  "changelog": "v1.3.12: Blindaje de llamadas WebRTC, corrección de reaparición de chats borrados, respuesta directa desde notificaciones de Android, filtrado de notificaciones antiguas y resiliencia offline robusta con keep screen on para multimedia.",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.12/Panalink-v1.3.12.apk",
+  "sha256": "6de939a66ccf20b3140ece5afb9e1596340987053652228700b863ce1ebcb60c",
+  "versionCode": 39,
+  "versionName": "v1.3.12"
 }
