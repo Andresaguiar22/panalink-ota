@@ -1,7 +1,7 @@
 {
-  "versionName": "v1.3.10",
-  "versionCode": 37,
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.10/Panalink-v1.3.10.apk",
-  "sha256": "42a3d1ee298ae784f277f541861ee0b3b4e21dfad36a50a5a84f69e02e69403f",
-  "changelog": "v1.3.10: Optimizacion navegacion - Reels prefetch solo settle-page + IO guard, collectors lifecycle-aware, stable LazyColumn keys, cleaner 400ms IO."
+  "changelog": "v1.3.11: Fix propagacion de avatares - los usuarios ven las fotos de perfil de otros (Gente, Llamadas, Reels, Stories) sin reiniciar la app; cache-first con TTL de 3min + cache JSON de contactos con avatar null fuerza red.",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.11/Panalink-v1.3.11.apk",
+  "sha256": "ac1c72ac6995414450ca43a4e37a7fc046796a6b32a2c95218f692d0b6e0fd54",
+  "versionCode": 38,
+  "versionName": "v1.3.11"
 }
