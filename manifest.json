@@ -1,7 +1,1 @@
-{
-  "changelog": "v1.3.16: Fixes post-release. Crash en llamadas con historial corto ( peso 0 corregido). Wildcard @Body de Retrofit en Live API ( provoca error al construir proxy)). Reproductor de historias usa DefaultDataSource()( soporta URIs locales de galeria/camara sin pantalla negra). CDN muerto trycloudflare detectado y evitado(en vez de bucle falso Error->Reintentar imposible). Boton Reintentar en stories de video cuando la resolucion BFF falla(o null(o vacio)).",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.16/Panalink-v1.3.16.apk",
-  "sha256": "b396fe6f48eeaadf7126c25b01fa45f9a9fc99bb15915ad9fdb44e5969c6745f",
-  "versionCode": 43,
-  "versionName": "v1.3.16"
-}
+{"versionCode":43,"versionName":"v1.3.16","sha256":"1a1778209301b363de1eef00ecbf962b361398a1d9392f9327c4ccf774a7e0fe","url":"https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.16/Panalink-v1.3.16.apk"}
