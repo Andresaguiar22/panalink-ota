@@ -1,7 +1,7 @@
 {
-  "changelog": "v1.3.13: Resiliencia offline completa. Reels, historias, muro y chats se guardan en la ROM y se ven sin conexión (sobre video en cache se reproduce y avisa que es copia local).. Banner amistoso en El Muro cuando no hay internet.. Al reconectar se refrescan todas las secciones en segundo plano sin crasheos.",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.13/Panalink-v1.3.13.apk",
-  "sha256": "2caebc27ed9fef2cbc42c5023e6be8e2246359b6250e506af2bcbeb236fb4388",
-  "versionCode": 40,
-  "versionName": "v1.3.13"
+  "changelog": "v1.3.14: Resiliencia offline completa. Reels, historias, muro y chats se guardan en la ROM y se ven sin conexión (sobre video en cache se reproduce y avisa que es copia local).. Banner amistoso en El Muro cuando no hay internet.. Al reconectar se refrescan todas las secciones en segundo plano sin crasheos.",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.14/Panalink-v1.3.14.apk",
+  "sha256": "0986396c2339f75a6ed8c78da81dd7637f3d3bd29bf35825610e63c2895e15a4",
+  "versionCode": 41,
+  "versionName": "v1.3.14"
 }
