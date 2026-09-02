@@ -1,7 +1,7 @@
 {
-  "changelog": "v1.3.12: Blindaje de llamadas WebRTC, corrección de reaparición de chats borrados, respuesta directa desde notificaciones de Android, filtrado de notificaciones antiguas y resiliencia offline robusta con keep screen on para multimedia.",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.12/Panalink-v1.3.12.apk",
-  "sha256": "6de939a66ccf20b3140ece5afb9e1596340987053652228700b863ce1ebcb60c",
-  "versionCode": 39,
-  "versionName": "v1.3.12"
+  "changelog": "v1.3.13: Resiliencia offline completa. Reels, historias, muro y chats se guardan en la ROM y se ven sin conexión (sobre video en cache se reproduce y avisa que es copia local).. Banner amistoso en El Muro cuando no hay internet.. Al reconectar se refrescan todas las secciones en segundo plano sin crasheos.",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.13/Panalink-v1.3.13.apk",
+  "sha256": "2caebc27ed9fef2cbc42c5023e6be8e2246359b6250e506af2bcbeb236fb4388",
+  "versionCode": 40,
+  "versionName": "v1.3.13"
 }
