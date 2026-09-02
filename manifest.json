@@ -1,7 +1,7 @@
 {
-  "changelog": "v1.3.15: Fixes y mejoras. Chat unico anti-duplicado (una sola conversacion por contacto, incluyendo al responder desde notificacion).. Orden de mensajes con millis (el enviado queda siempre debajo del anterior recibido).. Scroll automatico con teclado (IME) abierto: las burbujas quedan siempre por encima del teclado.. Live completo: invitacion de co-host PENDING,, pantalla de aceptacion,, PiP del co-host en el broadcast,, crash LiveGuestViewModel arreglado,, retry primero en reproductor de historias y autoplay de Reels arreglados.. Muro a prueba de estres: observers de media unicos (sin duplicados al hacer scroll rapido).. Avatares identity-first en chat completo y barra de progreso de historias sincronizada con trim.",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.15/Panalink-v1.3.15.apk",
-  "sha256": "2af3436209909e287ab5408698293a0944d46a536e0060f779bbf78ddf392f5c",
-  "versionCode": 42,
-  "versionName": "v1.3.15"
+  "changelog": "v1.3.16: Fixes post-release. Crash en llamadas con historial corto ( peso 0 corregido). Wildcard @Body de Retrofit en Live API ( provoca error al construir proxy)). Reproductor de historias usa DefaultDataSource()( soporta URIs locales de galeria/camara sin pantalla negra). CDN muerto trycloudflare detectado y evitado(en vez de bucle falso Error->Reintentar imposible). Boton Reintentar en stories de video cuando la resolucion BFF falla(o null(o vacio)).",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.16/Panalink-v1.3.16.apk",
+  "sha256": "b396fe6f48eeaadf7126c25b01fa45f9a9fc99bb15915ad9fdb44e5969c6745f",
+  "versionCode": 43,
+  "versionName": "v1.3.16"
 }
