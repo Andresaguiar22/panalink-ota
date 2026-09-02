@@ -1,7 +1,7 @@
 {
-  "changelog": "v1.3.14: Resiliencia offline completa. Reels, historias, muro y chats se guardan en la ROM y se ven sin conexión (sobre video en cache se reproduce y avisa que es copia local).. Banner amistoso en El Muro cuando no hay internet.. Al reconectar se refrescan todas las secciones en segundo plano sin crasheos.",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.14/Panalink-v1.3.14.apk",
-  "sha256": "0986396c2339f75a6ed8c78da81dd7637f3d3bd29bf35825610e63c2895e15a4",
-  "versionCode": 41,
-  "versionName": "v1.3.14"
+  "changelog": "v1.3.15: Fixes y mejoras. Chat unico anti-duplicado (una sola conversacion por contacto, incluyendo al responder desde notificacion).. Orden de mensajes con millis (el enviado queda siempre debajo del anterior recibido).. Scroll automatico con teclado (IME) abierto: las burbujas quedan siempre por encima del teclado.. Live completo: invitacion de co-host PENDING,, pantalla de aceptacion,, PiP del co-host en el broadcast,, crash LiveGuestViewModel arreglado,, retry primero en reproductor de historias y autoplay de Reels arreglados.. Muro a prueba de estres: observers de media unicos (sin duplicados al hacer scroll rapido).. Avatares identity-first en chat completo y barra de progreso de historias sincronizada con trim.",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.15/Panalink-v1.3.15.apk",
+  "sha256": "2af3436209909e287ab5408698293a0944d46a536e0060f779bbf78ddf392f5c",
+  "versionCode": 42,
+  "versionName": "v1.3.15"
 }
