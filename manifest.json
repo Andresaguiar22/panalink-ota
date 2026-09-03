@@ -1,1 +1,13 @@
-{"versionCode":47,"versionName":"v1.3.20","sha256":"dd554a09b0f25128e16235230286359cbde505e2a7e4763053a2ca6c20cc192c","downloadUrl":"https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.20/Panalink-v1.3.20.apk","mandatory":false,"minimumSupportedVersionCode":46,"changelog":["Migracion a Panalink V2.0 Oficial con correcciones de CDN y Avatares","Subidas de video idempotentes con lease atomico y sync robusta","Mejoras en uploads y Giphy integrado con propagacion de clientMessageUuid"]}
+{
+  "versionCode": 48,
+  "versionName": "v1.3.21",
+  "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.21/Panalink-v1.3.21.apk",
+  "sha256": "f8a311075a282019496d9ad0333297cdbd12857d19f7823c486ccab1a4d2924c",
+  "minimumSupportedVersionCode": 47,
+  "mandatory": false,
+  "changelog": [
+    "Panalink V2.0 Oficial - Release de Producción firmado digitalmente",
+    "Optimizaciones avanzadas de estabilidad offline y gestión de colas multimedia",
+    "Correcciones de sincronización en timepo real y robustez en canal de actualizaciones"
+  ]
+}
