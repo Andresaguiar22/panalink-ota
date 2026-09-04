@@ -1,15 +1,15 @@
 {
-  "versionCode": 49,
-  "versionName": "v1.3.22",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.22/Panalink-v1.3.22.apk",
-  "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.22/Panalink-v1.3.22.apk",
-  "sha256": "50daa7c64813989394d9bc89b368a6f2f8b2f7bfe7352a7ccebde8a522a261ac",
-  "minimumSupportedVersionCode": 48,
+  "versionCode": 50,
+  "versionName": "v1.3.23",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.23/Panalink-v1.3.23.apk",
+  "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.23/Panalink-v1.3.23.apk",
+  "sha256": "0b7eca5b1ea16a8faaafff745264954f22e1269942c24269a42bb637ee23baa9",
+  "minimumSupportedVersionCode": 49,
   "mandatory": false,
   "changelog": [
-    "Enrutado de vídeo en chat a través de vCDN con fallback automático a B2",
-    "Identificación canónica de chats estabilizada usando thread_id",
-    "Subidas multimedia idempotentes con recuperación de colas y respeto de reintentos",
-    "Correcciones de sincronización para mensajes de álbum y media URL remota"
+    "P1: Hardening offline del Muro/Historias completo",
+    "Eliminadas rutas de red offline en getFeed, getCommentsForPost, getPostById e isFollowing",
+    "Enqueue de audio de Historias endurecido: validacion, limpieza y cola durable sin red desde Compose",
+    "Test de Worker real AUDIO: completed + remoteUrl, 0 Stories, limpieza de temporales"
   ]
 }
