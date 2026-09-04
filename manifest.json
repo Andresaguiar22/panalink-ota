@@ -1,14 +1,15 @@
 {
-  "versionCode": 48,
-  "versionName": "v1.3.21",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.21/Panalink-v1.3.21.apk",
-  "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.21/Panalink-v1.3.21.apk",
-  "sha256": "8c4c3472fb4c4803d98650e1d561dfbcac14ddb3cb559c3c0b551361c5becf3f",
-  "minimumSupportedVersionCode": 47,
+  "versionCode": 49,
+  "versionName": "v1.3.22",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.22/Panalink-v1.3.22.apk",
+  "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.22/Panalink-v1.3.22.apk",
+  "sha256": "50daa7c64813989394d9bc89b368a6f2f8b2f7bfe7352a7ccebde8a522a261ac",
+  "minimumSupportedVersionCode": 48,
   "mandatory": false,
   "changelog": [
-    "Panalink V2.0 Oficial - Release de Producción firmado digitalmente",
-    "Optimizaciones avanzadas de estabilidad offline y gestión de colas multimedia",
-    "Correcciones de sincronización en timepo real y robustez en canal de actualizaciones"
+    "Enrutado de vídeo en chat a través de vCDN con fallback automático a B2",
+    "Identificación canónica de chats estabilizada usando thread_id",
+    "Subidas multimedia idempotentes con recuperación de colas y respeto de reintentos",
+    "Correcciones de sincronización para mensajes de álbum y media URL remota"
   ]
 }
