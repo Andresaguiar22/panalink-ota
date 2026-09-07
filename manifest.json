@@ -1,15 +1,16 @@
 {
-  "versionCode": 50,
-  "versionName": "v1.3.23",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.23/Panalink-v1.3.23.apk",
-  "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.23/Panalink-v1.3.23.apk",
-  "sha256": "0b7eca5b1ea16a8faaafff745264954f22e1269942c24269a42bb637ee23baa9",
-  "minimumSupportedVersionCode": 49,
+  "versionCode": 51,
+  "versionName": "v1.3.24",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.24/Panalink-v1.3.24.apk",
+  "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.24/Panalink-v1.3.24.apk",
+  "sha256": "238738cce281d13f9f8ae872ba22aafd97192437b8bef75d0d34b59b75c72f3d",
+  "minimumSupportedVersionCode": 50,
   "mandatory": false,
   "changelog": [
-    "P1: Hardening offline del Muro/Historias completo",
-    "Eliminadas rutas de red offline en getFeed, getCommentsForPost, getPostById e isFollowing",
-    "Enqueue de audio de Historias endurecido: validacion, limpieza y cola durable sin red desde Compose",
-    "Test de Worker real AUDIO: completed + remoteUrl, 0 Stories, limpieza de temporales"
+    "Reels: eliminado el fondo negro al pasar de un vídeo a otro (el siguiente ya viene preparado y se ve al instante).",
+    "Reels: el audio del siguiente vídeo arranca de inmediato al hacer swipe respetando el mute global.",
+    "Reels: precarga encolada con volumen correcto; sin blips de audio al activar mute.",
+    "Reels: sin fuga de players/códecs al salir del feed.",
+    "Reels: el slot de preload jamás re-prepara sobre el vídeo visible(black screen eliminado)."
   ]
 }
