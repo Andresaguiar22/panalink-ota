@@ -1,16 +1,21 @@
 {
-  "versionCode": 51,
-  "versionName": "v1.3.24",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.24/Panalink-v1.3.24.apk",
-  "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.24/Panalink-v1.3.24.apk",
-  "sha256": "238738cce281d13f9f8ae872ba22aafd97192437b8bef75d0d34b59b75c72f3d",
-  "minimumSupportedVersionCode": 50,
+  "versionCode": 52,
+  "versionName": "v1.3.25",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.25/Panalink-v1.3.25.apk",
+  "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.25/Panalink-v1.3.25.apk",
+  "sha256": "847ec309533ba77323757dbac162dccd3eec836d99ccffa9bf9ee6542a6ae03f",
+  "minimumSupportedVersionCode": 51,
   "mandatory": false,
   "changelog": [
-    "Reels: eliminado el fondo negro al pasar de un vídeo a otro (el siguiente ya viene preparado y se ve al instante).",
-    "Reels: el audio del siguiente vídeo arranca de inmediato al hacer swipe respetando el mute global.",
-    "Reels: precarga encolada con volumen correcto; sin blips de audio al activar mute.",
-    "Reels: sin fuga de players/códecs al salir del feed.",
-    "Reels: el slot de preload jamás re-prepara sobre el vídeo visible(black screen eliminado)."
+    "Restaurados los temas inspirados en WhatsApp (tema oscuro WhatsApp en el centro de personalización); fix de build para que el release compile.",
+    "Voice rooms: cola de reproducción 'up next' con burbujas de chat TikTok tappables.",
+    "Voice rooms: hoja de ajustes para el dueño (editar, eliminar, admins y bans).",
+    "Voice rooms: revamp visual estilo Starmaker/TikTok Live.",
+    "Fix llamadas: enrutado de audio moderno, fin de llamada al salir el peer, ring residual y llamadas fantasma eliminados.",
+    "Fix llamadas: RLS defensivo para call_sessions/call_signaling_events y canal call_inbox bloqueado al dueño.",
+    "Fix livekit: caché de token por sala (cambiar de salas dentro del TTL funciona..",
+    "Fix edge-functions: cerradas brechas IDOR y spoofing en b2-presign-download, livekit-token, vcdn-upload, send-call-push.",
+    "Fix: eliminado demo token hardcodeado; avatares solo HTTPS.",
+    "Reels: player state por puntero estable para que los vídeos se reproduzcan completos."
   ]
 }
