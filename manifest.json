@@ -1,14 +1,14 @@
 {
-  "versionCode": 55,
-  "versionName": "v1.3.28",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.28/Panalink-v1.3.28.apk",
-  "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.28/Panalink-v1.3.28.apk",
-  "sha256": "25d16d46dda94b40b8a873568aa3336c7103b9eb8fbbd173d87226969f137ddb",
-  "minimumSupportedVersionCode": 54,
-  "mandatory": false,
-  "changelog": [
-    "Salas de voz: al ocupar un sillón el micrófono se activa automáticamente (setMicEnabled(true) + captura de audio) y al abandonarlo se apaga y se limpia el estado. El botón de micrófono ahora es solo mute/unmute.",
-    "Salas de voz: fondo sin ruido — eliminada la textura de ruido (VoiceRoomNoiseTexture) en VoiceRoomStarmakerComponents; queda solo el gradiente + orbes.",
-    "Salas de voz: barra inferior siempre visible — el área del chat limitada con heightIn(max=220.dp) y weight(1f, fill=false)) para que no empuje el input fuera de pantalla."
-  ]
+    "versionCode": 56,
+    "versionName": "v1.3.29",
+    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.29/Panalink-v1.3.29.apk",
+    "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.29/Panalink-v1.3.29.apk",
+    "sha256": "d4434dd058e8e258ee28f461f313dbc8057fb3c2ecff96792f9b3bf821a0a42d",
+    "minimumSupportedVersionCode": 55,
+    "mandatory": false,
+    "changelog": [
+        "PanaTV: indicador de carga unificado al abrir canales (propiedad isLoading del ViewModel).",
+        "Salas de voz: refactor de la lógica - persistencia de burbujas de sistema al recargar, reconciliación de asientos en UPDATE, aviso de salida de miembros y timestamp ISO al abandonar.",
+        "Correcciones de sintaxis del audit de salas de voz y actualización de rutas del toolchain."
+    ]
 }
