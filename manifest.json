@@ -1,15 +1,15 @@
 {
-  "versionCode": 53,
-  "versionName": "v1.3.26",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.26/Panalink-v1.3.26.apk",
-  "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.26/Panalink-v1.3.26.apk",
-  "sha256": "60f20aeb7af2391f7547b5ce4bd1ae531acc3687c212b09d8561d97d1129a47c",
-  "minimumSupportedVersionCode": 52,
+  "versionCode": 54,
+  "versionName": "v1.3.27",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.27/Panalink-v1.3.27.apk",
+  "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.27/Panalink-v1.3.27.apk",
+  "sha256": "17d9d5bd56168ac78d2e9d367476621742759c41f88eee64d4b3587759dca252",
+  "minimumSupportedVersionCode": 53,
   "mandatory": false,
   "changelog": [
-    "Reels: al reintentar con una URL firmada nueva, el slot del player se conserva y se preserva la posición de reproduccion (ya no se libera el slot ni se pierde el progreso del video.",
-    "Reels: fix de retry — preservar el slot del player en lugar de liberarlo y re-crearlo.",
-    "Estados/Stories: estabilizacion de la resolucion de URLs persistentes (nuevo StateUrlResolver y refactors de estados, stories, realtime y reels.",
-    "Fix de build: imports faltantes del listener de errores de reels para que el release compile."
+    "Fix de compilacion: correccion de balance y anidamiento de llaves en VoiceRoomStarmakerComponents (VoiceRoomMembersSheet, VoiceRoomInputBar, VoiceRoomTikTokMessage y helpers de settings) para restaurar la estructura top-level.",
+    "Fix de compilacion: argumentos de AnimatedDialog corregidos (nuevo parametro content al final), import obsoleto lazy.item removido y llave extra final eliminada.",
+    "Fix de compilacion: observacion del estado de habla de participantes en salas de voz mediante la API correcta de LiveKit (property-reference flow sobre isSpeaking, LiveKit 2.13.0).",
+    "El proyecto vuelve a compilar correctamente en release tras los fixes de build."
   ]
 }
