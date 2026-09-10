@@ -1,13 +1,15 @@
 {
-    "versionCode": 58,
-    "versionName": "v1.3.31",
-    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.31/Panalink-v1.3.31.apk",
-    "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.31/Panalink-v1.3.31.apk",
-    "sha256": "8da21b84547658fc3ac568dd75f88fd51d7f31643f835e2a6e3d273517193972",
-    "minimumSupportedVersionCode": 57,
+    "versionCode": 59,
+    "versionName": "v1.3.32",
+    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.32/Panalink-v1.3.32.apk",
+    "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.32/Panalink-v1.3.32.apk",
+    "sha256": "76bb3d09b9ca9b432fb188f649dec21e741c694ab04926cf8279b98d780e1a95",
+    "minimumSupportedVersionCode": 58,
     "mandatory": false,
     "changelog": [
-        "Captura del código HTTP real en errores del reproductor de Reels (InvalidResponseCodeException) para diagnosticar 403/404/416/5xx (Issue #12).",
-        "Instrumentación mejorada: tipo de causa y número de reintento en els diagnostico del atasco."
+        "Salas de voz: rediseño visual Starmaker (paleta azul, layout horizontal, chat expandible) y corrección de la lógica invertida muted/speaking.",
+        "PanaTV: rediseño del layout, playback hardening, un solo player config y Room transaccional.",
+        "Seguridad: URLs firmadas redactadas de logs y mensajes; recuperación preventiva de 401 para Reels largos de VCDN.",
+        "Diagnóstico: instrumentación completa del chat (Issue #14) y resolución de URLs de media fuera del Main thread (Issue #16."
     ]
 }
