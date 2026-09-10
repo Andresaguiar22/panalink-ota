@@ -1,15 +1,13 @@
 {
-    "versionCode": 57,
-    "versionName": "v1.3.30",
-    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.30/Panalink-v1.3.30.apk",
-    "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.30/Panalink-v1.3.30.apk",
-    "sha256": "73bbf573dcd5e299b43f21cd8a1962b45fccd592d7603689bd3caea9fb211d91",
-    "minimumSupportedVersionCode": 56,
+    "versionCode": 58,
+    "versionName": "v1.3.31",
+    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.31/Panalink-v1.3.31.apk",
+    "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.31/Panalink-v1.3.31.apk",
+    "sha256": "8da21b84547658fc3ac568dd75f88fd51d7f31643f835e2a6e3d273517193972",
+    "minimumSupportedVersionCode": 57,
     "mandatory": false,
     "changelog": [
-        "Centro de Diagnóstico integrado en el Activity Center con persistencia local.",
-        "Instrumentación de reproducción de Reels: registro de buffering, recuperación de errores de ExoPlayer y reintento manual.",
-        "Mejoras de rendimiento: menos I/O redundante y resolución de URLs de media en dispatcher de I/O.",
-        "Audio en segundo plano y continuidad de video en el visor de pantalla completa de publicaciones."
+        "Captura del código HTTP real en errores del reproductor de Reels (InvalidResponseCodeException) para diagnosticar 403/404/416/5xx (Issue #12).",
+        "Instrumentación mejorada: tipo de causa y número de reintento en els diagnostico del atasco."
     ]
 }
