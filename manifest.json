@@ -1,14 +1,15 @@
 {
-    "versionCode": 56,
-    "versionName": "v1.3.29",
-    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.29/Panalink-v1.3.29.apk",
-    "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.29/Panalink-v1.3.29.apk",
-    "sha256": "d4434dd058e8e258ee28f461f313dbc8057fb3c2ecff96792f9b3bf821a0a42d",
-    "minimumSupportedVersionCode": 55,
+    "versionCode": 57,
+    "versionName": "v1.3.30",
+    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.30/Panalink-v1.3.30.apk",
+    "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.30/Panalink-v1.3.30.apk",
+    "sha256": "73bbf573dcd5e299b43f21cd8a1962b45fccd592d7603689bd3caea9fb211d91",
+    "minimumSupportedVersionCode": 56,
     "mandatory": false,
     "changelog": [
-        "PanaTV: indicador de carga unificado al abrir canales (propiedad isLoading del ViewModel).",
-        "Salas de voz: refactor de la lógica - persistencia de burbujas de sistema al recargar, reconciliación de asientos en UPDATE, aviso de salida de miembros y timestamp ISO al abandonar.",
-        "Correcciones de sintaxis del audit de salas de voz y actualización de rutas del toolchain."
+        "Centro de Diagnóstico integrado en el Activity Center con persistencia local.",
+        "Instrumentación de reproducción de Reels: registro de buffering, recuperación de errores de ExoPlayer y reintento manual.",
+        "Mejoras de rendimiento: menos I/O redundante y resolución de URLs de media en dispatcher de I/O.",
+        "Audio en segundo plano y continuidad de video en el visor de pantalla completa de publicaciones."
     ]
 }
