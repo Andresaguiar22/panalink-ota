@@ -1,14 +1,13 @@
 {
-  "versionCode": 63,
-  "versionName": "v1.3.36",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.36/Panalink-v1.3.36.apk",
-  "sha256": "8660b06798699e34c2e416bdb57dd8ff00ad66646bc6617d07b817121e34a154",
+  "versionCode": 64,
+  "versionName": "v1.3.37",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.37/Panalink-v1.3.37.apk",
+  "sha256": "75fb46b05b4ef57f9dcd120a7dbbe9c33eb4d8e0c14778d6d7041ea3b24597cd",
   "mandatory": false,
-  "minimumSupportedVersionCode": 62,
+  "minimumSupportedVersionCode": 63,
   "changelog": [
-    "fix(reels): stop falsas tormentas de recovery de codec — el clasificador isCodecInitializationError solo matchea codec reales (errorCode DECODER_INIT/QUERY_FAILED/DECODING_FORMAT_UNSUPPORTED o MediaCodec.CodecException sin HTTP arriba); los errores HTTP/401/5xx vuelven al retry normal invisible.",
-    "fix(reels): errores en preload ahora silenciosos — liberan el slot y el swipe re-adquiere limpio, sin cartel nem Recuperando video nem ni recovery visible.",
-    "fix(reels): overlay de recovery discreto (solo spinner sutil, sin texto que asuste).",
-    "APK universal: extractNativeLibs=true + 4 ABIs (arm64-v8a, armeabi-v7a, x86, x86_64) — ~78 MB."
+    "Integración del workflow de parcheo PanaTV automático (patch-panatv) en CI/CD.",
+    "Migración SQL: garantiza la existencia de un chat privado canónico para hilos uno-a-uno.",
+    "Recompilación release universal: extractNativeLibs=true + 4 ABIs (arm64-v8a, armeabi-v7a, x86, x86_64) — ~78–82 MB."
   ]
 }
