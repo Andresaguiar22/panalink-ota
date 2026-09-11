@@ -1,14 +1,14 @@
 {
-  "versionCode": 61,
-  "versionName": "v1.3.34",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.34/Panalink-v1.3.34.apk",
-  "sha256": "007ff56c4a594bad2e809532978164eec000a0310af7999e00d2f69cc0a7a874",
+  "versionCode": 62,
+  "versionName": "v1.3.35",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.35/Panalink-v1.3.35.apk",
+  "sha256": "0d88259492b2d48830471f737e9ccb1456d95966d907f66b9011d3d1bafef882",
   "mandatory": false,
-  "minimumSupportedVersionCode": 60,
+  "minimumSupportedVersionCode": 61,
   "changelog": [
-    "fix(panatv): repair compile errors in PanaTVModernScreen (compilacion rota desde v1.3.33).",
-    "fix(reels): implement automatic codec recovery and restore auto-retry re-acquisition en reproduccion de video.",
-    "fix(panatv): prevent channel cards from covering player y layout corregido.",
+    "fix(reels): eliminate codec-kill preventive VCDN signed-URL refresh (evita CodecException 4003/4006, black flashes y cortes a mitad de reproduccion).",
+    "fix(reels): harden network retry contra players stale/released (guarda exoPlayerRef==player y try/catch en prepare(), elimina IllegalStateException 1004 espurios).",
+    "fix(reels): preload solo del siguiente reel (page<=currentPage+1)) para swipe instantaneo tipo TikTok.sin competir con el anterior.",
     "APK universal:extractNativeLibs=true + 4 ABIs (fix XOS/Transsion) — ~78 MB."
   ]
 }
