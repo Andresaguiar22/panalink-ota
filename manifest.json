@@ -1,13 +1,13 @@
 {
-  "versionCode": 64,
-  "versionName": "v1.3.37",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.37/Panalink-v1.3.37.apk",
-  "sha256": "75fb46b05b4ef57f9dcd120a7dbbe9c33eb4d8e0c14778d6d7041ea3b24597cd",
+  "versionCode": 65,
+  "versionName": "v1.3.38",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.38/Panalink-v1.3.38.apk",
+  "sha256": "ceba730f9b9cb8e745ff986bfe259debe7d2e15af29c9e341e6c64331f2ab23c",
   "mandatory": false,
-  "minimumSupportedVersionCode": 63,
+  "minimumSupportedVersionCode": 64,
   "changelog": [
-    "Integración del workflow de parcheo PanaTV automático (patch-panatv) en CI/CD.",
-    "Migración SQL: garantiza la existencia de un chat privado canónico para hilos uno-a-uno.",
-    "Recompilación release universal: extractNativeLibs=true + 4 ABIs (arm64-v8a, armeabi-v7a, x86, x86_64) — ~78–82 MB."
+    "Fix pantalla negra al dar atras repetido en cualquier seccion: restauracion global de system bars/insets al volver al frente, limpieza de flag PiP stale (evita el overlay negro Cargando video... en toda la app)y FullScreenMediaViewer restaura insets al cerrar.",
+    "PanaTV fullscreen: enter/exit fullscreen simetricos e idempotentes, sin pantalla negra al salir con atras.",
+    "Splash minimalista tipo WhatsApp: logo centrado pequeno, sin textos ni spinner; precarga solo al cold-start (no al re-entrar desde background)."
   ]
 }
