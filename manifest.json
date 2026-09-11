@@ -1,15 +1,13 @@
 {
-    "versionCode": 59,
-    "versionName": "v1.3.32",
-    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.32/Panalink-v1.3.32.apk",
-    "apkUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.32/Panalink-v1.3.32.apk",
-    "sha256": "76bb3d09b9ca9b432fb188f649dec21e741c694ab04926cf8279b98d780e1a95",
-    "minimumSupportedVersionCode": 58,
-    "mandatory": false,
-    "changelog": [
-        "Salas de voz: rediseño visual Starmaker (paleta azul, layout horizontal, chat expandible) y corrección de la lógica invertida muted/speaking.",
-        "PanaTV: rediseño del layout, playback hardening, un solo player config y Room transaccional.",
-        "Seguridad: URLs firmadas redactadas de logs y mensajes; recuperación preventiva de 401 para Reels largos de VCDN.",
-        "Diagnóstico: instrumentación completa del chat (Issue #14) y resolución de URLs de media fuera del Main thread (Issue #16."
-    ]
+  "versionCode": 60,
+  "versionName": "v1.3.33",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.33/Panalink-v1.3.33.apk",
+  "sha256": "d9caad427fe52dcdaf35c28105c74df0c0d836af630c07c7138e450413d5f9c4",
+  "mandatory": false,
+  "minimumSupportedVersionCode": 59,
+  "changelog": [
+    "Fix critico de instalacion: APK universal con extractNativeLibs=true (compatibilidad XOS/Transsion - Infinix, Tecno, itel - y ROMs estrictas en Android  7-11+).",
+    "Un solo APK para todos los dispositivos compatibles (4 ABIs: arm64-v8a, armeabi-v7a, x86, x86_64); baja de 141 MB a ~78 MB.",
+    "Incluye todas las refactorizaciones de v1.3.32 (salas de voz/PanaTV, diagnostico, seguridad, reels).)."
+  ]
 }
