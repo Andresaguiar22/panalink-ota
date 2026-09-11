@@ -1,13 +1,14 @@
 {
-  "versionCode": 60,
-  "versionName": "v1.3.33",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.33/Panalink-v1.3.33.apk",
-  "sha256": "d9caad427fe52dcdaf35c28105c74df0c0d836af630c07c7138e450413d5f9c4",
+  "versionCode": 61,
+  "versionName": "v1.3.34",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.34/Panalink-v1.3.34.apk",
+  "sha256": "007ff56c4a594bad2e809532978164eec000a0310af7999e00d2f69cc0a7a874",
   "mandatory": false,
-  "minimumSupportedVersionCode": 59,
+  "minimumSupportedVersionCode": 60,
   "changelog": [
-    "Fix critico de instalacion: APK universal con extractNativeLibs=true (compatibilidad XOS/Transsion - Infinix, Tecno, itel - y ROMs estrictas en Android  7-11+).",
-    "Un solo APK para todos los dispositivos compatibles (4 ABIs: arm64-v8a, armeabi-v7a, x86, x86_64); baja de 141 MB a ~78 MB.",
-    "Incluye todas las refactorizaciones de v1.3.32 (salas de voz/PanaTV, diagnostico, seguridad, reels).)."
+    "fix(panatv): repair compile errors in PanaTVModernScreen (compilacion rota desde v1.3.33).",
+    "fix(reels): implement automatic codec recovery and restore auto-retry re-acquisition en reproduccion de video.",
+    "fix(panatv): prevent channel cards from covering player y layout corregido.",
+    "APK universal:extractNativeLibs=true + 4 ABIs (fix XOS/Transsion) — ~78 MB."
   ]
 }
