@@ -1,13 +1,13 @@
 {
-  "versionCode": 65,
-  "versionName": "v1.3.38",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.38/Panalink-v1.3.38.apk",
-  "sha256": "ceba730f9b9cb8e745ff986bfe259debe7d2e15af29c9e341e6c64331f2ab23c",
+  "versionCode": 66,
+  "versionName": "v1.3.39",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.39/Panalink-v1.3.39.apk",
+  "sha256": "8931d1b0d547327e0b6db283a86809786f2abb4d976a46fbf4869537a4385d91",
   "mandatory": false,
-  "minimumSupportedVersionCode": 64,
+  "minimumSupportedVersionCode": 65,
   "changelog": [
-    "Fix pantalla negra al dar atras repetido en cualquier seccion: restauracion global de system bars/insets al volver al frente, limpieza de flag PiP stale (evita el overlay negro Cargando video... en toda la app)y FullScreenMediaViewer restaura insets al cerrar.",
-    "PanaTV fullscreen: enter/exit fullscreen simetricos e idempotentes, sin pantalla negra al salir con atras.",
-    "Splash minimalista tipo WhatsApp: logo centrado pequeno, sin textos ni spinner; precarga solo al cold-start (no al re-entrar desde background)."
+    "Fix reels: eliminados el reproductor legacy muerto (ReelsFeedScreenV2 y ViewModel duplicados)y la doble descarga offline (ensureLocalCopy)que saturaba la red y causaba pausas; la copia local ya solo se usa OFFLINE y la resolucion reacciona al cambio de red.",
+    "Fix PanaTV: al cambiar de canal ya no se queda la imagen congelada del canal anterior (audio nuevo + frame vieja): el PlayerView re-conecta la surface al detectar cambio de canal y en fullscreen; el spinner espera la primera frame real.",
+    "Sala de voz: sillones de Starmaker separados en 2 filas uniformes de 4 (cada uno con su espacio, sin parejas pegadas)y fondo mas oscuro; el anfitrion se mantiene centrado arriba."
   ]
 }
