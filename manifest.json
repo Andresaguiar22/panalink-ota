@@ -1,14 +1,15 @@
 {
-    "versionCode": 67,
-    "versionName": "v1.3.40",
-    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.40/Panalink-v1.3.40.apk",
-    "sha256": "c47a91f09db4981bec856ced677ceb5a3d8e4c80a488aee82c3faab6bdf24836",
-    "mandatory": false,
-    "minimumSupportedVersionCode": 66,
-    "changelog": [
-        "Reels: barra de progreso deslizable corregida - arranca desde la izquierda (antes se centraba y empezaba al 43%).",
-        "Reels: eliminado el doble inset - la pildora superior queda pegada bajo las notificaciones y la barra de progreso pegada a la barra de navegacion (antes ~48dp de aire muerto).",
-        "Reels: buscador de videos y hashtags corregido (lupa + refresh).",
-        "Reels: rail de acciones estilo TikTok (like con pop, bookmark, send, mute, puntos), avatar en el rail con follow y cuentas en el buscador."
-    ]
+  "versionCode": 76,
+  "versionName": "v1.3.49",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.49/Panalink-v1.3.49.apk",
+  "sha256": "e70defb7a6bcdbb8d7762fa65dca504a2a026f96f4ce2e40495a761c17cfb130",
+  "mandatory": false,
+  "minimumSupportedVersionCode": 67,
+  "changelog": [
+    "Live: cámara negra al reingresar a una sala corregida (teardown en app-scope + heartbeat/auto-end de salas fantasma).",
+    "Live: cámara negra corregida — el renderer se inicializaba desde un hilo de IO y la preview no se enganchaba al track local.",
+    "VCDN: vídeos ahora se suben con ladder multi-calidad (ABR 360/720/1080) en vez de una sola rendition — mejor reproducción en redes lentas sin buffering.",
+    "VCDN: subidas más robustas — retry automático de chunks en errores transitorios retry-safe (503/409) e idempotencia local; las subidas ya no se pierden por un fallo suelto de red.",
+    "VCDN: observabilidad — logs de estado del transcode (sources/progress/attempts) al quedar listo cada vídeo."
+  ]
 }
