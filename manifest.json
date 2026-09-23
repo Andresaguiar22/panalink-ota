@@ -1,16 +1,12 @@
 {
-  "versionCode": 77,
-  "versionName": "v1.3.50",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.50/Panalink-v1.3.50.apk",
-  "sha256": "35be2cbe406e8eb8d41301129ddc5cce5dc658e576f6714a5c96ecb998b2039e",
+  "versionCode": 85,
+  "versionName": "v1.3.58",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.58/Panalink-v1.3.58.apk",
+  "sha256": "98b9f33520a376a9ac4c5f4066b7bd168043bc8246c465b061c41b8d9f0fc9f5",
   "mandatory": false,
-  "minimumSupportedVersionCode": 76,
+  "minimumSupportedVersionCode": 77,
   "changelog": [
-    "Chat: el multimedia ya no se queda 'cargando' tras haberse subido — registro inmediato al confirmar la subida y miniatura persistente en cache offline.",
-    "Chat: reactivado el CDN de PanaLink como destino de TODA la multimedia del chat (imagen, video, audio y documento) — la reproduccion vuelve a funcionar tras agotarse el cap Class B de B2.",
-    "Tema: identidad Prestige calibrada contra el mockup — fondo constelacion global, tipografia serif, tema claro real y eleccion explicita (claro/oscuro/sistema) que ya no depende del modo del sistema.",
-    "Chats: piel Prestige en la pestaña de chats segun el mockup (iconos, letras, colores y fondo).",
-    "Reels: importer de URL de reels — subir el video original a VCDN sin compresion local y miniatura real del poster (sin tarjetas grises.",
-    "Fix: re-anchor de URLs historicas a la CDN activa cuando Supabase cambia cdn_url — los media antiguos siguen reproduciendose."
+    "Fix: crash al abrir la app — la clave del LazyColumn de chats quedaba literal por interpolación escapada, generando \"Key was already used\" con 2+ chats. Ahora la clave interpola de verdad `{id}_{index}`.",
+    "Sin cambios funcionales adicionales en esta versión."
   ]
 }
