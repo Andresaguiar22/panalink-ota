@@ -1,14 +1,16 @@
 {
-  "versionCode": 88,
-  "versionName": "v1.3.61",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.61/Panalink-v1.3.61.apk",
-  "sha256": "4faf2f32ca9ffbe98bb1544ef31c09f4ba9720da5bdfc1f2047de972e73309c6",
+  "versionCode": 89,
+  "versionName": "v1.3.62",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.62/Panalink-v1.3.62.apk",
+  "sha256": "1a0cdb58421fb37a297fb6b30cb3d0d111c947ef37e222cd713ed2696f830022",
   "mandatory": false,
-  "minimumSupportedVersionCode": 87,
+  "minimumSupportedVersionCode": 88,
   "changelog": [
-    "🔔 Notificaciones FCM ricas y coloridas al estilo iOS: icono de la app tintado por tipo (chat azul, historias verde, likes rosa, comentarios violeta), avatar circular del remitente con anillo de color + thumbnail real de la publicación en grande.",
-    "🎬 Vídeos del Muro e Historias con el mismo motor robusto que Reels: refresh transparente de URL firmada, límite de resolución por perfil, overlay elegante de error con Reintentar; tarjetas del Muro 100% estáticas (thumbnail + Play, sin ExoPlayer en el feed.",
-    "💬 Chat realtime: señalización \"grabando nota de voz\" en tiempo real (chip iOS con micrófono rojo + ondas animadas); \"Escribiendo...\" / \"Grabando audio...\" en el punto de presencia de la lista de chats; estado de mensajes con círculos(1 gris enviado, 2 naranjas entregado, 3 verdes leído)en burbujas y previews.",
-    "🧪 Actual: v1.3.61/code 88; sin R8 regresiones (kotlin-reflect, Moshi y adapters KSP verificados en el dex del APK final)."
+    "🎬 Reels, Historias y Muro al CDN convencional de PanaLink: fuera VCDN del flujo de subida (su token expiraba a ~60s y paraba los vídeos a mitad). Sin expiración de token.",
+    "🗂️ Caché de vídeo ampliada a 2 GB: los vídeos ya vistos se reproducen sin internet (~100 reels de hasta 20 MB).",
+    "✅ Puntos de estado del chat corregidos: 1 gris (enviado), 2 naranjas (entregado), 2 verdes (leído), pequeños y separados.",
+    "💜 Anillo de historia fucsia cuando no está vista; gris cuando ya se vio.",
+    "🔍 Barra de búsqueda con borde delgado fucsia.",
+    "🎞️ Tarjetas del Muro 100% estáticas con thumbnail + Play; el visor reutiliza el motor robusto de Reels con una sola fuente de verdad para likes/comentarios/compartidos."
   ]
 }
