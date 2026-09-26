@@ -1,16 +1,13 @@
 {
-  "versionCode": 86,
-  "versionName": "v1.3.59",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.59/Panalink-v1.3.59.apk",
-  "sha256": "0fc077c08b4a1414a9378dc90e89731f8ed5e2605715dcfeb299f7ebfd60aaf8",
-  "mandatory": false,
-  "minimumSupportedVersionCode": 85,
+  "versionCode": 87,
+  "versionName": "v1.3.60",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.60/Panalink-v1.3.60.apk",
+  "sha256": "1c5d30867322552e5127e6f18a03089e0d6fa71eab7960dd218165a4e5cb7908",
+  "mandatory": true,
+  "minimumSupportedVersionCode": 86,
   "changelog": [
-    "Apariencia iOS en toda la app: chats, reels, muro, historias, PanaTV, llamadas, salas de voz, musica, perfil y ajustes.",
-    "Iconos Rounded en toda la aplicacion (849 usos migrados) para un acabado mas moderno y coherente.",
-    "Muro: visor vertical de video e imagenes con navegacion tipo TikTok, reacciones y apertura de tu propia publicacion al publicar.",
-    "Historias: corregido el audio del video que seguia sonando sobre la foto siguiente, y el descuadre de la barra de progreso.",
-    "Motor unico de reproduccion con cap de resolucion por contexto.",
-    "Sesion unica por cuenta, retencion automatica de datos y GIFs/stickers de Klipy."
+    "🔥 HOTFIX CRÍTICO: corregido el crash al abrir la app (NoClassDefFoundError SupabaseClient) que afectaba a la v1.3.59.",
+    "Se conserva TODO el stack de serialización de Moshi/kotlin-reflect con R8 activo: KotlinJsonAdapterFactory, kotlin.Metadata, kotlin.reflect.jvm.internal y los adapters generados.",
+    "BUILD SUCCESSFUL verificado con R8 (12m 41s),ion  ‎4 DEX y las clases de reflexión presentes en el APK final."
   ]
 }
