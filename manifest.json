@@ -1,13 +1,14 @@
 {
-  "versionCode": 87,
-  "versionName": "v1.3.60",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.60/Panalink-v1.3.60.apk",
-  "sha256": "1c5d30867322552e5127e6f18a03089e0d6fa71eab7960dd218165a4e5cb7908",
-  "mandatory": true,
-  "minimumSupportedVersionCode": 86,
+  "versionCode": 88,
+  "versionName": "v1.3.61",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.61/Panalink-v1.3.61.apk",
+  "sha256": "4faf2f32ca9ffbe98bb1544ef31c09f4ba9720da5bdfc1f2047de972e73309c6",
+  "mandatory": false,
+  "minimumSupportedVersionCode": 87,
   "changelog": [
-    "🔥 HOTFIX CRÍTICO: corregido el crash al abrir la app (NoClassDefFoundError SupabaseClient) que afectaba a la v1.3.59.",
-    "Se conserva TODO el stack de serialización de Moshi/kotlin-reflect con R8 activo: KotlinJsonAdapterFactory, kotlin.Metadata, kotlin.reflect.jvm.internal y los adapters generados.",
-    "BUILD SUCCESSFUL verificado con R8 (12m 41s),ion  ‎4 DEX y las clases de reflexión presentes en el APK final."
+    "🔔 Notificaciones FCM ricas y coloridas al estilo iOS: icono de la app tintado por tipo (chat azul, historias verde, likes rosa, comentarios violeta), avatar circular del remitente con anillo de color + thumbnail real de la publicación en grande.",
+    "🎬 Vídeos del Muro e Historias con el mismo motor robusto que Reels: refresh transparente de URL firmada, límite de resolución por perfil, overlay elegante de error con Reintentar; tarjetas del Muro 100% estáticas (thumbnail + Play, sin ExoPlayer en el feed.",
+    "💬 Chat realtime: señalización \"grabando nota de voz\" en tiempo real (chip iOS con micrófono rojo + ondas animadas); \"Escribiendo...\" / \"Grabando audio...\" en el punto de presencia de la lista de chats; estado de mensajes con círculos(1 gris enviado, 2 naranjas entregado, 3 verdes leído)en burbujas y previews.",
+    "🧪 Actual: v1.3.61/code 88; sin R8 regresiones (kotlin-reflect, Moshi y adapters KSP verificados en el dex del APK final)."
   ]
 }
