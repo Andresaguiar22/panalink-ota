@@ -1,12 +1,16 @@
 {
-  "versionCode": 85,
-  "versionName": "v1.3.58",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.58/Panalink-v1.3.58.apk",
-  "sha256": "98b9f33520a376a9ac4c5f4066b7bd168043bc8246c465b061c41b8d9f0fc9f5",
+  "versionCode": 86,
+  "versionName": "v1.3.59",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.59/Panalink-v1.3.59.apk",
+  "sha256": "0fc077c08b4a1414a9378dc90e89731f8ed5e2605715dcfeb299f7ebfd60aaf8",
   "mandatory": false,
-  "minimumSupportedVersionCode": 77,
+  "minimumSupportedVersionCode": 85,
   "changelog": [
-    "Fix: crash al abrir la app — la clave del LazyColumn de chats quedaba literal por interpolación escapada, generando \"Key was already used\" con 2+ chats. Ahora la clave interpola de verdad `{id}_{index}`.",
-    "Sin cambios funcionales adicionales en esta versión."
+    "Apariencia iOS en toda la app: chats, reels, muro, historias, PanaTV, llamadas, salas de voz, musica, perfil y ajustes.",
+    "Iconos Rounded en toda la aplicacion (849 usos migrados) para un acabado mas moderno y coherente.",
+    "Muro: visor vertical de video e imagenes con navegacion tipo TikTok, reacciones y apertura de tu propia publicacion al publicar.",
+    "Historias: corregido el audio del video que seguia sonando sobre la foto siguiente, y el descuadre de la barra de progreso.",
+    "Motor unico de reproduccion con cap de resolucion por contexto.",
+    "Sesion unica por cuenta, retencion automatica de datos y GIFs/stickers de Klipy."
   ]
 }
