@@ -1,18 +1,17 @@
 {
-  "versionCode": 90,
-  "versionName": "v1.3.63",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.3.63/Panalink-v1.3.63.apk",
-  "sha256": "50e272ecd4bb7ef6068aff12ced9b679ec4b32121d7e7e0f9feaef0b25aa0765",
-  "mandatory": false,
-  "minimumSupportedVersionCode": 89,
-  "changelog": [
-    "🎬 Reels: opción \"Descargar vídeo\" en el menú de tres puntos; el vídeo queda en tu galería.",
-    "🎬 Reels: iconos de reacciones más grandes y \"gorditos\", y más juntos entre sí en el rail derecho.",
-    "🎬 Reels: nuevo icono de compartir (estilo iOS, sin el avión de papel) y comentarios con dos burbujas.",
-    "💬 Chat: reproduce enlaces de YouTube dentro de la burbuja, borrado para todos y edición con el botón enviar.",
-    "🖼️ Visor de fotos con zoom.",
-    "🗂️ Todo el vídeo va a VCDN y el resto (fotos, audio, notas de voz, stickers, GIFs, documentos) al CDN de Telegram, ilimitado y con Range.",
-    "🧹 Backblaze B2 eliminado de subidas, routing y workers.",
-    "🛠️ Correcciones: mensaje claro del importador cuando el descargador está caído, RPC internos de vCDN restaurados y guard de borrado lógico corregido."
-  ]
+    "versionCode": 163,
+    "versionName": "v1.4.1",
+    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.1/Panalink-v1.4.1.apk",
+    "sha256": "ac8a7ab5c7c618825cff0530ddaf8f1a8a9501ceaced77e943ef8e3f2171b712",
+    "mandatory": false,
+    "minimumSupportedVersionCode": 90,
+    "changelog": [
+        "\ud83c\udfac Reels: un solo audio a la vez. Al cambiar de reel (o subir/borrar un video) ya no suena el anterior por debajo.",
+        "\ud83c\udfac Reels: se acabo el cartel de \"Reintentar\" pegado en videos que si funcionan (videos cacheados).",
+        "\ud83c\udfac Reels: los fallos transitorios de red y de decoder se reintentan; si el servidor de firmas falla, se usa la ultima URL valida.",
+        "\ud83d\udcf7 Crear un Reel: el boton \"Grabar video\" abre siempre la camara (grabador propio de la app, sin depender de la camara del sistema).",
+        "\ud83d\udcf1 Pantalla de publicacion con interfaz iOS: cabecera con titulo grande, campos con foco azul, tarjetas de destino con check y boton PUBLICAR en pildora azul.",
+        "\ud83e\ude9f La barra superior y el avatar ya no saltan al centro de la pantalla; la mascota de Pana AI ya no congela la interfaz.",
+        "\ud83d\udcf9 El audio del video del feed ya corresponde al video mostrado (thumbnail y audio sincronizados)."
+    ]
 }
