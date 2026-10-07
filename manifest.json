@@ -1,17 +1,25 @@
 {
-    "versionCode": 163,
-    "versionName": "v1.4.1",
-    "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.1/Panalink-v1.4.1.apk",
-    "sha256": "ac8a7ab5c7c618825cff0530ddaf8f1a8a9501ceaced77e943ef8e3f2171b712",
-    "mandatory": false,
-    "minimumSupportedVersionCode": 90,
-    "changelog": [
-        "\ud83c\udfac Reels: un solo audio a la vez. Al cambiar de reel (o subir/borrar un video) ya no suena el anterior por debajo.",
-        "\ud83c\udfac Reels: se acabo el cartel de \"Reintentar\" pegado en videos que si funcionan (videos cacheados).",
-        "\ud83c\udfac Reels: los fallos transitorios de red y de decoder se reintentan; si el servidor de firmas falla, se usa la ultima URL valida.",
-        "\ud83d\udcf7 Crear un Reel: el boton \"Grabar video\" abre siempre la camara (grabador propio de la app, sin depender de la camara del sistema).",
-        "\ud83d\udcf1 Pantalla de publicacion con interfaz iOS: cabecera con titulo grande, campos con foco azul, tarjetas de destino con check y boton PUBLICAR en pildora azul.",
-        "\ud83e\ude9f La barra superior y el avatar ya no saltan al centro de la pantalla; la mascota de Pana AI ya no congela la interfaz.",
-        "\ud83d\udcf9 El audio del video del feed ya corresponde al video mostrado (thumbnail y audio sincronizados)."
-    ]
+  "versionCode": 178,
+  "versionName": "v1.4.2",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.2/Panalink-v1.4.2.apk",
+  "sha256": "350fdc7b24339db1a4f6f1eec4570fb835cabf4c0367448ae9ab3b585dbc164f",
+  "mandatory": false,
+  "minimumSupportedVersionCode": 163,
+  "changelog": [
+    "🎨 Nuevo tema claro iOS y tema oscuro renovado, coherentes en toda la app. El tema claro pasa a ser el modo por defecto en instalaciones nuevas.",
+    "✨ Acabado neumorphism/glassmorphism: tarjetas con relieve, cristal esmerilado en la lista de chats y barras con profundidad y respuesta táctil.",
+    "🔵 Puntos de estado de mensaje en 3D (enviado/entregado/leído) e iconos de la barra superior con volumen 3D.",
+    "🎬 Editor de Reels: transiciones reales del carrusel (idénticas en la vista previa y en el video exportado).",
+    "🎬 Editor de Reels: subtítulos con plantillas tipo CapCut (karaoke, palabra por palabra, máquina de escribir) y edición por capa.",
+    "🎬 Editor de Reels: audio por clip (volumen, silencio y fundidos) y publicación directa a Reels, Historia o Muro.",
+    "📎 Pegar URL: pantalla propia que reconoce la plataforma e importa el video.",
+    "🔔 Notificaciones ricas: avatar, miniatura del contenido, burbuja de conversación y respuesta rápida.",
+    "🔔 Aviso a seguidores cuando alguien inicia un Live o abre una sala de voz.",
+    "🔊 Sonido garantizado en ROMs como XOS (Infinix) y HiOS (Tecno), donde antes llegaban en silencio.",
+    "🎥 Reels: un solo audio a la vez al cambiar de reel; los fallos transitorios se reintentan solos y sin carteles falsos.",
+    "🖼️ Muro: las imágenes ya no se abren como video; el refrescar salta al tope de inmediato.",
+    "💬 Chat: miniatura real de los videos y reproducción inmediata para quien los envía.",
+    "🧠 Pana AI: mascota viva en la barra superior, con memoria, personalidad y vínculo que evolucionan con el uso.",
+    "📺 PanaTV: catálogo que carga completo y burbujas de cristal en los canales."
+  ]
 }
