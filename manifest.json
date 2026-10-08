@@ -1,25 +1,14 @@
 {
-  "versionCode": 178,
-  "versionName": "v1.4.2",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.2/Panalink-v1.4.2.apk",
-  "sha256": "350fdc7b24339db1a4f6f1eec4570fb835cabf4c0367448ae9ab3b585dbc164f",
+  "versionCode": 179,
+  "versionName": "v1.4.3",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.3/Panalink-v1.4.3.apk",
+  "sha256": "58125b2d56936a798c215adc72f1e42228bac4eac42e7b4549ac15aa72f7684b",
   "mandatory": false,
-  "minimumSupportedVersionCode": 163,
+  "minimumSupportedVersionCode": 178,
   "changelog": [
-    "🎨 Nuevo tema claro iOS y tema oscuro renovado, coherentes en toda la app. El tema claro pasa a ser el modo por defecto en instalaciones nuevas.",
-    "✨ Acabado neumorphism/glassmorphism: tarjetas con relieve, cristal esmerilado en la lista de chats y barras con profundidad y respuesta táctil.",
-    "🔵 Puntos de estado de mensaje en 3D (enviado/entregado/leído) e iconos de la barra superior con volumen 3D.",
-    "🎬 Editor de Reels: transiciones reales del carrusel (idénticas en la vista previa y en el video exportado).",
-    "🎬 Editor de Reels: subtítulos con plantillas tipo CapCut (karaoke, palabra por palabra, máquina de escribir) y edición por capa.",
-    "🎬 Editor de Reels: audio por clip (volumen, silencio y fundidos) y publicación directa a Reels, Historia o Muro.",
-    "📎 Pegar URL: pantalla propia que reconoce la plataforma e importa el video.",
-    "🔔 Notificaciones ricas: avatar, miniatura del contenido, burbuja de conversación y respuesta rápida.",
-    "🔔 Aviso a seguidores cuando alguien inicia un Live o abre una sala de voz.",
-    "🔊 Sonido garantizado en ROMs como XOS (Infinix) y HiOS (Tecno), donde antes llegaban en silencio.",
-    "🎥 Reels: un solo audio a la vez al cambiar de reel; los fallos transitorios se reintentan solos y sin carteles falsos.",
-    "🖼️ Muro: las imágenes ya no se abren como video; el refrescar salta al tope de inmediato.",
-    "💬 Chat: miniatura real de los videos y reproducción inmediata para quien los envía.",
-    "🧠 Pana AI: mascota viva en la barra superior, con memoria, personalidad y vínculo que evolucionan con el uso.",
-    "📺 PanaTV: catálogo que carga completo y burbujas de cristal en los canales."
+    "\ud83c\udfac Todo el video (chat, historias, muro, reels y publicaciones) sube ahora siempre a VCDN, con streaming y seek estables.",
+    "\ud83d\uddbc\ufe0f Imagenes, audios, notas de voz, stickers, GIFs y documentos siguen en el CDN de PanaLink, con respaldo automatico en el CDN de Telegram si el tunel cae.",
+    "\ud83d\udd27 Los videos ya no quedan huerfanos: la URL de VCDN es estable y no depende de un tunel efimero.",
+    "\u267b\ufe0f Media historica reparada: los archivos rescatados del CDN se migraron a VCDN y al CDN de Telegram."
   ]
 }
