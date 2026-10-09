@@ -1,14 +1,14 @@
 {
-  "versionCode": 179,
-  "versionName": "v1.4.3",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.3/Panalink-v1.4.3.apk",
-  "sha256": "58125b2d56936a798c215adc72f1e42228bac4eac42e7b4549ac15aa72f7684b",
+  "versionCode": 189,
+  "versionName": "v1.4.4",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.4/Panalink-v1.4.4.apk",
+  "sha256": "49ea4af056dab6507b27d87353b4284508014ea803aa7843f5d0843dab7c3062",
   "mandatory": false,
-  "minimumSupportedVersionCode": 178,
+  "minimumSupportedVersionCode": 179,
   "changelog": [
-    "\ud83c\udfac Todo el video (chat, historias, muro, reels y publicaciones) sube ahora siempre a VCDN, con streaming y seek estables.",
-    "\ud83d\uddbc\ufe0f Imagenes, audios, notas de voz, stickers, GIFs y documentos siguen en el CDN de PanaLink, con respaldo automatico en el CDN de Telegram si el tunel cae.",
-    "\ud83d\udd27 Los videos ya no quedan huerfanos: la URL de VCDN es estable y no depende de un tunel efimero.",
-    "\u267b\ufe0f Media historica reparada: los archivos rescatados del CDN se migraron a VCDN y al CDN de Telegram."
+    "Chat: los comentarios del Muro ahora tienen reacciones REALES persistidas (antes eran simuladas) y respuestas en hilo con banner de 'Respondiendo a...'.",
+    "Muro: el selector de GIFs ya no se abre a pantalla completa ni tapa el contenido; sale como panel compacto anclado abajo.",
+    "Muro: el modal de comentarios usa el mismo tamano que el de Reels, asi que con el teclado abierto se ve lo que se escribe sin deslizar.",
+    "Chat: el envio de GIF es mas rapido, la burbuja aparece al instante con estado 'enviando' y se sube en segundo plano."
   ]
 }
