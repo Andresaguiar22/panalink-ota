@@ -1,14 +1,13 @@
 {
-  "versionCode": 189,
-  "versionName": "v1.4.4",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.4/Panalink-v1.4.4.apk",
-  "sha256": "49ea4af056dab6507b27d87353b4284508014ea803aa7843f5d0843dab7c3062",
+  "versionCode": 190,
+  "versionName": "v1.4.5",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.5/Panalink-v1.4.5.apk",
+  "sha256": "ca16f05fafac316faa4e07f85a227222e70eab15d1370fae85f0d28354ff1dcd",
   "mandatory": false,
-  "minimumSupportedVersionCode": 179,
+  "minimumSupportedVersionCode": 189,
   "changelog": [
-    "Chat: los comentarios del Muro ahora tienen reacciones REALES persistidas (antes eran simuladas) y respuestas en hilo con banner de 'Respondiendo a...'.",
-    "Muro: el selector de GIFs ya no se abre a pantalla completa ni tapa el contenido; sale como panel compacto anclado abajo.",
-    "Muro: el modal de comentarios usa el mismo tamano que el de Reels, asi que con el teclado abierto se ve lo que se escribe sin deslizar.",
-    "Chat: el envio de GIF es mas rapido, la burbuja aparece al instante con estado 'enviando' y se sube en segundo plano."
+    "Muro: los comentarios se abren correctamente dentro de la publicacion a pantalla completa (antes el panel quedaba detras del video).",
+    "Muro: el selector de GIFs ya no cubre la pantalla completa; sale como panel compacto anclado abajo.",
+    "Muro: el modal de comentarios mantiene su tamano con el teclado abierto, asi se ve lo que se escribe."
   ]
 }
