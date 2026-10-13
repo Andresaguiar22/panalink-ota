@@ -1,13 +1,17 @@
 {
-  "versionCode": 190,
-  "versionName": "v1.4.5",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.5/Panalink-v1.4.5.apk",
-  "sha256": "ca16f05fafac316faa4e07f85a227222e70eab15d1370fae85f0d28354ff1dcd",
+  "versionCode": 195,
+  "versionName": "v1.4.6",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.6/Panalink-v1.4.6.apk",
+  "sha256": "bca68245a7d3fd905e41f1518fbb00b6441ae50806ae922d2a65bbf0f3378294",
   "mandatory": false,
-  "minimumSupportedVersionCode": 189,
+  "minimumSupportedVersionCode": 190,
   "changelog": [
-    "Muro: los comentarios se abren correctamente dentro de la publicacion a pantalla completa (antes el panel quedaba detras del video).",
-    "Muro: el selector de GIFs ya no cubre la pantalla completa; sale como panel compacto anclado abajo.",
-    "Muro: el modal de comentarios mantiene su tamano con el teclado abierto, asi se ve lo que se escribe."
+    "Muro: dar me gusta en el visor a pantalla completa ya no rebota al primer video.",
+    "Muro: los comentarios se ven dentro del visor a pantalla completa (antes el panel quedaba detras del video).",
+    "Muro: el modal de comentarios mantiene su tamano con el teclado abierto.",
+    "Muro: el selector de GIFs ya no cubre la pantalla; sale como panel compacto anclado abajo.",
+    "GIFs: vuelve la lupa al buscador del selector (muro, reels, estados, live y detalle de publicacion).",
+    "GIFs: el GIF/sticker aparece al instante al enviarlo y se previsualiza antes de enviar.",
+    "Muro: reacciones reales y persistentes, y responder activado en comentarios."
   ]
 }
