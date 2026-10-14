@@ -1,17 +1,13 @@
 {
-  "versionCode": 195,
-  "versionName": "v1.4.6",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.6/Panalink-v1.4.6.apk",
-  "sha256": "bca68245a7d3fd905e41f1518fbb00b6441ae50806ae922d2a65bbf0f3378294",
+  "versionCode": 196,
+  "versionName": "v1.4.7",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.7/Panalink-v1.4.7.apk",
+  "sha256": "1d86b19e46a3c1ebbf06cef32a30e1c3f0a0b16b069f0a4df6e719b2e307197d",
   "mandatory": false,
-  "minimumSupportedVersionCode": 190,
+  "minimumSupportedVersionCode": 195,
   "changelog": [
-    "Muro: dar me gusta en el visor a pantalla completa ya no rebota al primer video.",
-    "Muro: los comentarios se ven dentro del visor a pantalla completa (antes el panel quedaba detras del video).",
-    "Muro: el modal de comentarios mantiene su tamano con el teclado abierto.",
-    "Muro: el selector de GIFs ya no cubre la pantalla; sale como panel compacto anclado abajo.",
-    "GIFs: vuelve la lupa al buscador del selector (muro, reels, estados, live y detalle de publicacion).",
-    "GIFs: el GIF/sticker aparece al instante al enviarlo y se previsualiza antes de enviar.",
-    "Muro: reacciones reales y persistentes, y responder activado en comentarios."
+    "Video: se puede volver a publicar. El CDN de PanaLink vuelve a ser el destino principal de los videos (sube en menos de 1 segundo), asi que reels, historias, muro y chat dejan de quedarse colgados subiendo. VCDN queda como respaldo automatico.",
+    "Los videos ya publicados en VCDN siguen viendose con normalidad: no se toco su reproduccion.",
+    "Muro/Reels: el filtro que ocultaba contenido con fuente caida ya no descarta por error los videos recien subidos."
   ]
 }
