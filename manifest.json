@@ -1,16 +1,15 @@
 {
-  "versionCode": 197,
-  "versionName": "v1.4.8",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.8/Panalink-v1.4.8.apk",
-  "sha256": "f721fbb1e3ffbdd4b5fa5f20e4b42ccdce54802893eb8e6a69e7352f47eba9b3",
+  "versionCode": 198,
+  "versionName": "v1.4.9",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.9/Panalink-v1.4.9.apk",
+  "sha256": "fa46b5f7c322a3010f5c87e87dcc9e5a810324fbb5c441f1193e325f7cca7237",
   "mandatory": false,
-  "minimumSupportedVersionCode": 196,
+  "minimumSupportedVersionCode": 197,
   "changelog": [
-    "Soporte real: la seccion de informacion ahora abre de verdad el sitio web, el correo y el telefono del equipo, con reportes de fallos que ya incluyen tu version y dispositivo.",
-    "Nueva fila Soporte en el Centro de Control con acceso directo a todas las vias de contacto.",
-    "Perfil: nueva pestana Muro con tus publicaciones y estadisticas.",
-    "La tarjeta de informacion del contacto muestra el PIN real (antes inventaba uno).",
-    "Reels: iconos y contadores mas grandes, avatar mas alto y nombre mas visible.",
-    "Historias: la miniatura que viaja al chat ya se muestra correctamente."
+    "Feed \"Para ti\": el orden ya no queda siempre igual. Lo que mas me gusta y comentarios tiene tiende a salir antes, pero una publicacion recien subida ya puede aparecer arriba en vez de quedar de ultima.",
+    "El orden del feed se renueva al refrescar y al volver a entrar, tanto en Reels como en el Muro.",
+    "Las estadisticas de una publicacion tuya (vistas y me gusta) aparecen solo cuando la abres desde \"mis publicaciones\", y ya no tapan el nombre del autor.",
+    "Muro: las publicaciones sin contenido o con la media caida ya no se muestran como tarjetas vacias.",
+    "Reels: descripcion y hashtags con letra mas grande."
   ]
 }
