@@ -1,13 +1,16 @@
 {
-  "versionCode": 196,
-  "versionName": "v1.4.7",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.7/Panalink-v1.4.7.apk",
-  "sha256": "1d86b19e46a3c1ebbf06cef32a30e1c3f0a0b16b069f0a4df6e719b2e307197d",
+  "versionCode": 197,
+  "versionName": "v1.4.8",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.8/Panalink-v1.4.8.apk",
+  "sha256": "f721fbb1e3ffbdd4b5fa5f20e4b42ccdce54802893eb8e6a69e7352f47eba9b3",
   "mandatory": false,
-  "minimumSupportedVersionCode": 195,
+  "minimumSupportedVersionCode": 196,
   "changelog": [
-    "Video: se puede volver a publicar. El CDN de PanaLink vuelve a ser el destino principal de los videos (sube en menos de 1 segundo), asi que reels, historias, muro y chat dejan de quedarse colgados subiendo. VCDN queda como respaldo automatico.",
-    "Los videos ya publicados en VCDN siguen viendose con normalidad: no se toco su reproduccion.",
-    "Muro/Reels: el filtro que ocultaba contenido con fuente caida ya no descarta por error los videos recien subidos."
+    "Soporte real: la seccion de informacion ahora abre de verdad el sitio web, el correo y el telefono del equipo, con reportes de fallos que ya incluyen tu version y dispositivo.",
+    "Nueva fila Soporte en el Centro de Control con acceso directo a todas las vias de contacto.",
+    "Perfil: nueva pestana Muro con tus publicaciones y estadisticas.",
+    "La tarjeta de informacion del contacto muestra el PIN real (antes inventaba uno).",
+    "Reels: iconos y contadores mas grandes, avatar mas alto y nombre mas visible.",
+    "Historias: la miniatura que viaja al chat ya se muestra correctamente."
   ]
 }
