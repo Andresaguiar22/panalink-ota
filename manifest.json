@@ -1,18 +1,22 @@
 {
-  "versionCode": 199,
-  "versionName": "v1.4.10",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.10/Panalink-v1.4.10.apk",
-  "sha256": "1e246357b25b51170cb4e61c5c8c6664ce61160a4d61e426d010d5e0614e1610",
+  "versionCode": 200,
+  "versionName": "v1.4.11",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.11/Panalink-v1.4.11.apk",
+  "sha256": "e4c93c76d13bf00d5817cfee0f2e8eeb816ff635252b992b3922d094593ad267",
   "mandatory": false,
-  "minimumSupportedVersionCode": 198,
+  "minimumSupportedVersionCode": 199,
   "changelog": [
-    "Navegacion hacia atras paso a paso por pestanas: al salir de crear (reel, historia) ya no salta de golpe al inicio.",
-    "Avatares EN VIVO: aro luminoso giratorio, avatar latiendo y etiqueta EN VIVO cuando alguien transmite (contactos, muro, reels, chats y perfil).",
-    "Directos intercalados en el feed de Reels y atajo de directos en la barra superior.",
-    "Ver en vivo desde el perfil: boton para entrar como espectador al directo de esa persona.",
-    "Perfil: los reels del perfil ya se abren al tocarlos y el perfil ajeno se ve completo con su portada y publicaciones.",
-    "Historias: comentarios funcionando de punta a punta entre el visitante y el autor.",
-    "Muro: reproductor fluido como reels, calidad maxima de VCDN y sin tarjetas vacias cuando la media cae.",
-    "Reels y Muro: no se sale sin querer al escribir y al volver se retoma el mismo video."
+    "Regalos de los directos: Panda y Ballena Azul nuevos (arte propio, centrados a pantalla completa), Sirena y Poseidon a media pantalla, y el Leon ahora suena.",
+    "Videollamadas 1-1 reales: se arreglo la camara, el renderer negro y los permisos; el receptor ya no se queda en audio.",
+    "Colgantes animados en las salas de voz y encuestas en las historias.",
+    "Racha de Pana: dias seguidos de uso con su llama animada, y racha de amistad por conversacion.",
+    "Vitrina de logros en el perfil, con aura animada en las medallas.",
+    "Widget de inicio con el resumen del usuario, sistema de referidos con recompensa y panel de estadisticas del creador.",
+    "Efectos faciales con realidad aumentada y vibracion en los reels (respetando el ajuste del sistema).",
+    "Hashtags y menciones tocables en el feed; las menciones abren el perfil.",
+    "La foto de perfil nueva se propaga a todos (antes solo la veia el propio usuario).",
+    "La playlist reproduce toda la lista, no solo la primera cancion.",
+    "La edicion y el borrado \"para todos\" de un mensaje ya no se quedan pegados si falla la red, y el reintento de una subida conserva el progreso real.",
+    "Blindaje de permisos de la API ante el cambio de Supabase del 30 de octubre, mas limpieza de codigo muerto."
   ]
 }
