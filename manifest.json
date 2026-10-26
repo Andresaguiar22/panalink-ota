@@ -1,22 +1,15 @@
 {
-  "versionCode": 200,
-  "versionName": "v1.4.11",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.11/Panalink-v1.4.11.apk",
-  "sha256": "e4c93c76d13bf00d5817cfee0f2e8eeb816ff635252b992b3922d094593ad267",
+  "versionCode": 201,
+  "versionName": "v1.4.12",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.12/Panalink-v1.4.12.apk",
+  "sha256": "03bdb68fbb0790bac894614bfd0635acf1b8069aea21bac7488fbabc7263d024",
   "mandatory": false,
-  "minimumSupportedVersionCode": 199,
+  "minimumSupportedVersionCode": 200,
   "changelog": [
-    "Regalos de los directos: Panda y Ballena Azul nuevos (arte propio, centrados a pantalla completa), Sirena y Poseidon a media pantalla, y el Leon ahora suena.",
-    "Videollamadas 1-1 reales: se arreglo la camara, el renderer negro y los permisos; el receptor ya no se queda en audio.",
-    "Colgantes animados en las salas de voz y encuestas en las historias.",
-    "Racha de Pana: dias seguidos de uso con su llama animada, y racha de amistad por conversacion.",
-    "Vitrina de logros en el perfil, con aura animada en las medallas.",
-    "Widget de inicio con el resumen del usuario, sistema de referidos con recompensa y panel de estadisticas del creador.",
-    "Efectos faciales con realidad aumentada y vibracion en los reels (respetando el ajuste del sistema).",
-    "Hashtags y menciones tocables en el feed; las menciones abren el perfil.",
-    "La foto de perfil nueva se propaga a todos (antes solo la veia el propio usuario).",
-    "La playlist reproduce toda la lista, no solo la primera cancion.",
-    "La edicion y el borrado \"para todos\" de un mensaje ya no se quedan pegados si falla la red, y el reintento de una subida conserva el progreso real.",
-    "Blindaje de permisos de la API ante el cambio de Supabase del 30 de octubre, mas limpieza de codigo muerto."
+    "Los cinco iconos de la barra inferior son ahora los disenos propios, con transparencia real y un borde que se ilumina segun el tema: verde claro en oscuro y azul en claro.",
+    "Antes el trazo del icono era blanco fijo y en tema claro desaparecia sobre la barra blanca; ahora los mismos archivos se adaptan a los dos temas.",
+    "El boton flotante de acciones usa el diseno propio, con su anillo luminoso azul claro, y quedo un poco mas arriba.",
+    "La barra inferior y todas las pantallas de fondo oscuro pasan al negro mate de la app, el mismo que ya tenian Momentos y Reels: el fondo se ve uniforme en vez de con tonos azulados distintos.",
+    "El chat conserva su patron de garabatos, ahora sobre el mismo negro."
   ]
 }
