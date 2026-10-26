@@ -1,15 +1,14 @@
 {
-  "versionCode": 201,
-  "versionName": "v1.4.12",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.12/Panalink-v1.4.12.apk",
-  "sha256": "03bdb68fbb0790bac894614bfd0635acf1b8069aea21bac7488fbabc7263d024",
+  "versionCode": 202,
+  "versionName": "v1.4.13",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.13/Panalink-v1.4.13.apk",
+  "sha256": "43621ff6cff314647cbe820cc4bf04dbfb49f826453c7efd838a200a859e6a03",
   "mandatory": false,
-  "minimumSupportedVersionCode": 200,
+  "minimumSupportedVersionCode": 201,
   "changelog": [
-    "Los cinco iconos de la barra inferior son ahora los disenos propios, con transparencia real y un borde que se ilumina segun el tema: verde claro en oscuro y azul en claro.",
-    "Antes el trazo del icono era blanco fijo y en tema claro desaparecia sobre la barra blanca; ahora los mismos archivos se adaptan a los dos temas.",
-    "El boton flotante de acciones usa el diseno propio, con su anillo luminoso azul claro, y quedo un poco mas arriba.",
-    "La barra inferior y todas las pantallas de fondo oscuro pasan al negro mate de la app, el mismo que ya tenian Momentos y Reels: el fondo se ve uniforme en vez de con tonos azulados distintos.",
-    "El chat conserva su patron de garabatos, ahora sobre el mismo negro."
+    "Los cinco iconos de la barra inferior se redibujaron con trazo grueso y uniforme, estilo WhatsApp: antes la linea era tan fina que apenas se distinguia.",
+    "Las formas siguen siendo las mismas que ya conoces (dos burbujas, destello, claqueta, auricular y dos personas), pero ahora limpias y con el mismo grosor en todas.",
+    "Se conserva el encendido por tema: el simbolo se ilumina con un color y el anillo que lo rodea con otro, tanto en claro como en oscuro.",
+    "El circulo que envuelve cada icono tambien gano grosor, asi que el conjunto se lee mucho mejor sobre la barra."
   ]
 }
