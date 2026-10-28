@@ -1,14 +1,16 @@
 {
-  "versionCode": 202,
-  "versionName": "v1.4.13",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.13/Panalink-v1.4.13.apk",
-  "sha256": "43621ff6cff314647cbe820cc4bf04dbfb49f826453c7efd838a200a859e6a03",
+  "versionCode": 203,
+  "versionName": "v1.4.14",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.14/Panalink-v1.4.14.apk",
+  "sha256": "815208fee4941a445048cc36e326cf43e1b21b673ca2e6e786ff67a8f707181a",
   "mandatory": false,
-  "minimumSupportedVersionCode": 201,
+  "minimumSupportedVersionCode": 202,
   "changelog": [
-    "Los cinco iconos de la barra inferior se redibujaron con trazo grueso y uniforme, estilo WhatsApp: antes la linea era tan fina que apenas se distinguia.",
-    "Las formas siguen siendo las mismas que ya conoces (dos burbujas, destello, claqueta, auricular y dos personas), pero ahora limpias y con el mismo grosor en todas.",
-    "Se conserva el encendido por tema: el simbolo se ilumina con un color y el anillo que lo rodea con otro, tanto en claro como en oscuro.",
-    "El circulo que envuelve cada icono tambien gano grosor, asi que el conjunto se lee mucho mejor sobre la barra."
+    "Las notificaciones de mensajes vuelven a sonar: se unifico el canal de sonido que el flujo de notificaciones usaba por separado y nunca recibio los ajustes de audio.",
+    "Ya no se silencian los mensajes cuando sales de la app estando dentro de un chat: ahora solo se callan si de verdad estas mirando esa conversacion.",
+    "El contador de mensajes sin leer respeta lo mismo, asi que el numero ya sube aunque hubieras salido desde ese chat.",
+    "Bandeja de notificaciones unificada: mensajes, me gusta, comentarios, seguidores, transmisiones y salas de voz llegan a un solo lugar, con estado de leido sincronizado. Se conserva el historial anterior.",
+    "Los cinco iconos de la barra inferior quedaron mas proporcionados, manteniendo la misma altura de barra.",
+    "Endurecimiento de seguridad: se retiro una llamada de push sin uso y se verifico la identidad en el envio de notificaciones de llamada."
   ]
 }
