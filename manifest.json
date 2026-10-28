@@ -1,16 +1,15 @@
 {
-  "versionCode": 203,
-  "versionName": "v1.4.14",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.14/Panalink-v1.4.14.apk",
-  "sha256": "815208fee4941a445048cc36e326cf43e1b21b673ca2e6e786ff67a8f707181a",
+  "versionCode": 204,
+  "versionName": "v1.4.15",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.15/Panalink-v1.4.15.apk",
+  "sha256": "208ce613914146516b00896be74f22e5d52d064006c66923fadd3da824da2821",
   "mandatory": false,
-  "minimumSupportedVersionCode": 202,
+  "minimumSupportedVersionCode": 203,
   "changelog": [
-    "Las notificaciones de mensajes vuelven a sonar: se unifico el canal de sonido que el flujo de notificaciones usaba por separado y nunca recibio los ajustes de audio.",
-    "Ya no se silencian los mensajes cuando sales de la app estando dentro de un chat: ahora solo se callan si de verdad estas mirando esa conversacion.",
-    "El contador de mensajes sin leer respeta lo mismo, asi que el numero ya sube aunque hubieras salido desde ese chat.",
-    "Bandeja de notificaciones unificada: mensajes, me gusta, comentarios, seguidores, transmisiones y salas de voz llegan a un solo lugar, con estado de leido sincronizado. Se conserva el historial anterior.",
-    "Los cinco iconos de la barra inferior quedaron mas proporcionados, manteniendo la misma altura de barra.",
-    "Endurecimiento de seguridad: se retiro una llamada de push sin uso y se verifico la identidad en el envio de notificaciones de llamada."
+    "Ya puedes recuperar tu contraseña desde la propia app: escribes tu correo, te llega un código de 6 dígitos, lo escribes y pones la nueva. El código caduca en 1 hora y no abre la sesión de nadie.",
+    "Avisos a la cuenta correcta: si tenías varias cuentas en el mismo teléfono, al cerrar sesión en una el teléfono seguía recibiendo sus avisos. Ahora se da de baja al cerrar sesión y cada aviso se verifica antes de mostrarlo.",
+    "Los GIF y stickers ya no se rompen: ahora se guardan en un servidor con dirección fija, así que se mantienen en el tiempo. Tus mensajes anteriores no se tocan.",
+    "Regalos y monedas: un reintento tras un corte de red ya no puede cobrarte dos veces, y se cerró un fallo de seguridad que permitía acreditar saldo a otra cuenta.",
+    "Si entras con tu cuenta en otro teléfono, la app ahora te avisa antes de cerrar la sesión anterior."
   ]
 }
