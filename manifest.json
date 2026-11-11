@@ -1,15 +1,20 @@
 {
-  "versionCode": 204,
-  "versionName": "v1.4.15",
-  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.15/Panalink-v1.4.15.apk",
-  "sha256": "208ce613914146516b00896be74f22e5d52d064006c66923fadd3da824da2821",
+  "versionCode": 205,
+  "versionName": "v1.4.16",
+  "downloadUrl": "https://github.com/Andresaguiar22/panalink-ota/releases/download/v1.4.16/Panalink-v1.4.16.apk",
+  "sha256": "fd2d4d59362e01e1cec956dd5242bd949ef0750cac01bbe56eed48ad1974a140",
   "mandatory": false,
-  "minimumSupportedVersionCode": 203,
+  "minimumSupportedVersionCode": 204,
   "changelog": [
-    "Ya puedes recuperar tu contraseña desde la propia app: escribes tu correo, te llega un código de 6 dígitos, lo escribes y pones la nueva. El código caduca en 1 hora y no abre la sesión de nadie.",
-    "Avisos a la cuenta correcta: si tenías varias cuentas en el mismo teléfono, al cerrar sesión en una el teléfono seguía recibiendo sus avisos. Ahora se da de baja al cerrar sesión y cada aviso se verifica antes de mostrarlo.",
-    "Los GIF y stickers ya no se rompen: ahora se guardan en un servidor con dirección fija, así que se mantienen en el tiempo. Tus mensajes anteriores no se tocan.",
-    "Regalos y monedas: un reintento tras un corte de red ya no puede cobrarte dos veces, y se cerró un fallo de seguridad que permitía acreditar saldo a otra cuenta.",
-    "Si entras con tu cuenta en otro teléfono, la app ahora te avisa antes de cerrar la sesión anterior."
+    "El audio de los videos ahora suena al doble (estilo TikTok) en reels, muro, historias, chat y el visor a pantalla completa, con un limitador para que se oiga mas fuerte sin distorsionar.",
+    "Los videos ya no se cortan ni se quedan pegados: el reproductor se adapta a la red, revive el video si se atasca y reintenta solo.",
+    "Borrado automatico: al borrar una publicacion, un reel o una historia su video se elimina del servidor. En el chat, si tu vacias la conversacion el otro usuario conserva la suya; solo se borra cuando los dos la vacian.",
+    "Directos con batalla PK real (marcador y temporizador), preguntas y respuestas de la audiencia, modo gaming y espectador estilo TikTok con corazones al toque.",
+    "Pana TV verifica que los canales emitan de verdad (chip 'Solo con senal'), repara los logos y ya no pierde tus favoritos al actualizar.",
+    "Mensajes de voz con onda real y reproduccion instantanea; el chat descarga las imagenes y videos cuando los tocas para no saturarse con poca red.",
+    "Editor de Reels con borrador automatico, stickers de imagen, calidad de export elegible y cancelacion de la exportacion.",
+    "Notificaciones que SI suenan y llegan a la cuenta correcta, con tarjeta de conversacion (avatar, mensaje y responder en linea).",
+    "Varios cierres de seguridad (monedas, lista de bloqueados de un directo, sesiones) y recuperacion de contrasena con codigo de 6 digitos.",
+    "Racha con recompensas: monedas y marcos de avatar por dias seguidos."
   ]
 }
